@@ -1,0 +1,273 @@
+Pull Request Number,Title,Merged,Time to Merge,Comments,Review Comments,Lines of Code Changed
+283,Bump snakeyaml from 1.33 to 2.0,Yes,4:09:21,2,0,2
+282,Support SnakeYAML 2.0,Yes,6:43:58,0,0,19
+281,Bump log4j.version from 2.19.0 to 2.20.0,Yes,2:45:25,0,0,2
+280,Bump spring.version from 5.3.25 to 6.0.5,No,,0,0,2
+279,Bump actions/cache from 3.2.5 to 3.2.6,Yes,0:18:52,0,0,2
+278,Bump spring.version from 5.3.24 to 5.3.25,Yes,"6 days, 22:10:46",0,0,2
+277,Bump actions/setup-java from 3.9.0 to 3.10.0,Yes,0:30:24,1,0,4
+276,Bump actions/cache from 3.2.4 to 3.2.5,Yes,0:30:46,1,0,2
+275,Bump mockito-core from 4.11.0 to 5.1.1,No,,0,0,2
+274,Bump jackson-databind from 2.14.1 to 2.14.2,Yes,0:09:27,1,0,2
+273,Bump actions/cache from 3.2.3 to 3.2.4,Yes,0:10:18,1,0,2
+272,Remove unused declarations.,No,,2,0,2
+271,Replace lambdas with method references.,No,,0,0,5
+270,Migrate to SnakeYAML Engine,No,,6,7,119
+269,Migrate to SnakeYAML Engine,No,,1,0,119
+268,Bump mockito-core from 4.11.0 to 5.0.0,No,,1,0,2
+267,Bump maven-checkstyle-plugin from 3.2.0 to 3.2.1,No,,2,0,2
+266,Bump spring.version from 5.3.24 to 6.0.4,No,,1,0,2
+265,Bump actions/cache from 3.2.2 to 3.2.3,Yes,0:31:10,1,0,2
+264,Bump actions/checkout from 3.2.0 to 3.3.0,Yes,2:27:09,1,0,8
+263,Bump actions/upload-artifact from 3.1.1 to 3.1.2,Yes,2:26:58,1,0,2
+262,Bump checkstyle from 9.3 to 10.6.0,No,,2,0,2
+261,Bump slf4j.version from 2.0.5 to 2.0.6,No,,2,0,2
+260,Bump spring.version from 5.3.23 to 6.0.3,No,,1,0,2
+259,Bump mockito-core from 4.10.0 to 4.11.0,Yes,1:14:54,1,0,2
+258,Bump actions/cache from 3.2.1 to 3.2.2,Yes,0:27:35,1,0,2
+257,Bump mockito-core from 4.9.0 to 4.10.0,Yes,3:15:55,0,0,2
+256,Bump ossf/scorecard-action from 2.1.0 to 2.1.2,Yes,3:16:58,0,0,2
+255,Bump actions/cache from 3.0.11 to 3.2.1,Yes,1:37:31,0,0,2
+254,[INFRA-24015] Update for Scorecards 2,Yes,1:08:36,2,0,3
+253,Bump commons-parent from 54 to 55,Yes,6:23:53,1,0,2
+252,Bump actions/setup-java from 3.8.0 to 3.9.0,Yes,0:52:32,1,0,4
+251,Bump actions/checkout from 3.1.0 to 3.2.0,Yes,0:52:49,1,0,8
+250,Bump ossf/scorecard-action from 1.1.2 to 2.1.0,Yes,0:52:23,0,0,2
+249,Bump mockito-core from 4.8.1 to 4.9.0,Yes,0:10:26,1,0,2
+248,Bump actions/setup-java from 3.7.0 to 3.8.0,Yes,0:04:05,0,0,4
+247,Bump checkstyle from 9.3 to 10.5.0,No,,2,0,2
+246,Bump jackson-databind from 2.13.4.2 to 2.14.1,Yes,1:47:09,0,0,4
+245,Bump actions/setup-java from 3.6.0 to 3.7.0,Yes,0:13:26,0,0,4
+244,Use Java style array decelerations,Yes,2:11:33,1,0,26
+243,Use StandardCharsets.UTF_8,Yes,0:37:09,1,0,6
+242,Comparisons with String.indexOf() calls that can be replaced with a c…,Yes,1:02:06,1,0,10
+241,Bump slf4j.version from 2.0.4 to 2.0.5,Yes,4:51:38,1,0,4
+240,Bump spring.version from 5.3.23 to 6.0.2,No,,1,0,2
+239,Bump spring.version from 5.3.23 to 6.0.0,No,,1,0,2
+238,Bump slf4j.version from 2.0.2 to 2.0.4,Yes,3:45:32,0,0,5
+237,Bump spotbugs-maven-plugin from 4.7.2.1 to 4.7.3.0,Yes,17:18:29,1,0,4
+236,Bump checkstyle from 9.3 to 10.4,No,,2,0,2
+235,Bump mockito-core from 4.8.0 to 4.8.1,Yes,"2 days, 2:59:15",0,0,2
+234,Bump hsqldb from 2.5.2 to 2.7.1,No,,0,0,2
+233,Bump actions/upload-artifact from 3.1.0 to 3.1.1,Yes,"2 days, 3:02:02",1,0,2
+232,Bump ossf/scorecard-action from 1.1.2 to 2.0.6,No,,3,0,2
+231,Bump actions/setup-java from 3.5.1 to 3.6.0,Yes,3:03:22,1,0,4
+230,Add more detailed statement around CVE-2022-33980,Yes,1:29:55,1,0,79
+229,CONFIGURATION-822: Fix ambiguity on the section determining,Yes,"19 days, 23:06:17",7,4,110
+228,Bump spotbugs-maven-plugin from 4.7.2.0 to 4.7.2.1,Yes,10:53:05,1,0,4
+227,Bump jackson-databind from 2.13.4 to 2.13.4.2,Yes,9:48:19,1,0,4
+226,Bump actions/cache from 3.0.10 to 3.0.11,Yes,4:23:26,0,0,2
+225,Bump actions/cache from 3.0.9 to 3.0.10,Yes,6:26:37,2,0,4
+224,Bump actions/checkout from 3.0.2 to 3.1.0,Yes,6:18:40,0,0,12
+223,Bump actions/cache from 3.0.8 to 3.0.9,Yes,1:32:05,1,0,5
+222,Bump ossf/scorecard-action from 1.1.2 to 2.0.4,No,,4,0,2
+221,Bump commons-text from 1.9 to 1.10.0,Yes,0:50:57,3,0,2
+220,Bump checkstyle from 9.3 to 10.3.4,No,,2,0,2
+219,Bump snakeyaml from 1.32 to 1.33,Yes,0:54:30,1,0,2
+218,Bump slf4j.version from 2.0.2 to 2.0.3,No,,2,0,2
+217,Bump junit-jupiter from 5.9.0 to 5.9.1,Yes,1:32:16,0,0,2
+216,Bump commons-parent from 53 to 54,Yes,1:33:14,0,0,2
+215,Bump slf4j.version from 2.0.1 to 2.0.2,Yes,2:17:56,1,0,4
+214,Bump javacc-maven-plugin from 2.6 to 3.0.1,No,,1,0,2
+213,Bump log4j.version from 2.18.0 to 2.19.0,Yes,1:38:59,0,0,2
+212,Bump snakeyaml from 1.31 to 1.32,Yes,6:45:56,0,0,4
+211,Bump spring.version from 5.3.22 to 5.3.23,Yes,6:47:20,0,0,5
+210,Bump slf4j.version from 2.0.0 to 2.0.1,Yes,7:02:10,2,0,4
+209,Bump ossf/scorecard-action from 1.1.2 to 2.0.3,No,,3,0,2
+208,Bump Mockito from 4.7.0 to 4.8.0,Yes,0:16:25,0,0,11
+207,Bump maven-pmd-plugin 3.18.0 to 3.19.0,Yes,0:09:00,0,0,9
+206,Bump spotbugs from 4.7.0 to 4.7.2,Yes,1:10:36,0,0,16
+205,Bump jackson-databind from 2.13.3 to 2.13.4,Yes,0:07:59,0,0,5
+204,Bump checkstyle from 9.3 to 10.3.3,No,,2,0,2
+203,Bump snakeyaml from 1.30 to 1.31,Yes,4:14:08,0,0,5
+202,Bump slf4j.version from 1.7.36 to 2.0.0,Yes,6:49:30,0,0,5
+201,Bump maven-checkstyle-plugin from 3.1.2 to 3.2.0,Yes,6:50:39,0,0,5
+200,Bump mockito-core from 4.6.1 to 4.7.0,Yes,4:42:30,1,0,5
+199,Bump javacc-maven-plugin from 2.6 to 3.0.0,No,,1,0,2
+198,Bump checkstyle from 9.3 to 10.3.2,No,,2,0,2
+197,Bump junit-jupiter from 5.8.2 to 5.9.0,Yes,6:39:47,1,0,5
+196,Bump hsqldb from 2.5.2 to 2.7.0,No,,2,0,2
+195,Bump spotbugs-maven-plugin from 4.7.1.0 to 4.7.1.1,Yes,19:06:12,0,0,2
+194,CONFIGURATION-817: update to JUnit 5,Yes,"5 days, 21:21:46",5,8,15553
+193,Bump spotbugs-maven-plugin from 4.7.0.0 to 4.7.1.0,Yes,6:14:35,0,0,2
+192,Bump checkstyle from 9.3 to 10.3.1,No,,2,0,2
+191,setup-java: adopt -> temurin,Yes,"12 days, 5:26:21",0,0,2
+190,use GitHub Actions setup-java Maven cache property,No,,1,0,16
+189,Use charset predefined StandardCharsets.UTF_8 code.,Yes,6:52:04,3,0,5
+188,CONFIGURATION-813: mailapi follow up,Yes,"1 day, 0:24:02",1,2,71
+187,Make default interpolation prefix lookups configurable,Yes,0:07:07,0,0,407
+186,[CONFIGURATION-813]: Support both javax and jakarta namespace in mailapi,Yes,0:17:47,4,8,37
+185,[CONFIGURATION-813] Use javamail 2.0,No,,2,0,23
+184,Bump checkstyle from 9.3 to 10.3,No,,2,0,2
+183,Bump spotbugs-maven-plugin from 4.6.0.0 to 4.7.0.0,Yes,6:32:23,0,0,4
+182,CONFIGURATION-764: Single Variable Interpolation,Yes,"8 days, 17:08:42",5,2,28
+181,CONFIGURATION-753: Interpolation Consistency,Yes,"4 days, 10:02:29",1,5,360
+180,Bump checkstyle from 9.3 to 10.2,No,,3,0,2
+179,Version bumps,Yes,0:33:37,5,0,23
+178,Bump github/codeql-action from 1 to 2,No,,1,0,6
+177,Bump commons-parent from 52 to 53,No,,1,0,2
+176,Bump spring.version from 5.3.18 to 5.3.19,No,,1,0,2
+175,Bump checkstyle from 9.3 to 10.1,No,,2,0,2
+174,Bump actions/setup-java from 2 to 3,Yes,5:33:25,0,0,4
+173,Bump jackson-databind from 2.13.2 to 2.13.2.2,Yes,0:47:20,0,0,2
+172,Bump spring.version from 5.3.16 to 5.3.18,Yes,1:31:29,0,0,2
+171,"Update Spring to 5.3.18 which fixes CVE-2022-22965 aka ""Spring4shell""",No,,2,0,2
+170,Bump checkstyle from 9.2.1 to 10.0,No,,4,0,2
+169,Bump actions/cache from 2.1.7 to 3,Yes,5:11:16,0,0,4
+168,Bump jackson-databind from 2.13.1 to 2.13.2,Yes,2:45:43,0,0,2
+167,Bump dbunit from 2.7.2 to 2.7.3,Yes,2:45:12,0,0,2
+166,Bump slf4j.version from 1.7.33 to 1.7.36,Yes,"27 days, 21:23:54",0,0,2
+165,Bump spring.version from 5.3.15 to 5.3.16,Yes,3:47:45,0,0,7
+164,Bump spotbugs-maven-plugin from 4.2.3 to 4.5.3.0,No,,2,0,2
+163,Bump actions/checkout from 2 to 3,Yes,0:13:46,0,0,4
+161,Bump hsqldb from 2.5.2 to 2.6.1,No,,2,0,2
+160,Bump slf4j.version from 1.7.33 to 1.7.35,No,,1,0,2
+159,Bump jackson-databind from 2.12.4 to 2.13.1,Yes,"40 days, 8:23:05",0,0,2
+158,Bump slf4j.version from 1.7.30 to 1.7.33,Yes,6:53:18,0,0,10
+157,Bump snakeyaml from 1.29 to 1.30,Yes,22:06:32,0,0,2
+156,Bump spring.version from 5.3.9 to 5.3.15,Yes,22:14:16,0,0,2
+155,Bump checkstyle from 8.45.1 to 9.2.1,Yes,6:01:15,0,0,4
+154,Bump jackrabbit-webdav from 1.5.2 to 2.21.9,No,,2,0,2
+153,Bump spotbugs-maven-plugin from 4.2.3 to 4.5.2.0,No,,1,0,2
+152,Bump spotbugs-maven-plugin from 4.2.3 to 4.5.0.0,No,,1,0,2
+151,Bump actions/cache from 2.1.6 to 2.1.7,Yes,8:53:26,0,0,4
+150,Bump actions/checkout from 2.3.4 to 2.4.0,Yes,"20 days, 9:00:36",0,0,4
+149,Bump spotbugs-maven-plugin from 4.2.3 to 4.4.2.2,No,,1,0,2
+148,Bump spotbugs-maven-plugin from 4.2.3 to 4.4.2.1,No,,1,0,2
+147,Bump actions/checkout from 2.3.4 to 2.3.5,No,,1,0,2
+146,Bump spotbugs-maven-plugin from 4.2.3 to 4.4.2,No,,1,0,2
+145,Bump jackrabbit-webdav from 1.5.2 to 2.21.8,No,,1,0,2
+144,Bump spotbugs-maven-plugin from 4.2.3 to 4.4.1,No,,1,0,2
+143,Update tests to hamcrest v2.2,Yes,"175 days, 5:52:19",0,0,13
+142,Replace DummyLayout with mocking object and improve test design,No,,1,0,43
+141,Make final variable.,Yes,"188 days, 19:42:44",0,0,10
+140,Simplify conditions and avoid extra checks.,Yes,"251 days, 22:08:57",0,0,13
+139,Replace test asserts by simpler but equivalent calls.,Yes,"188 days, 19:53:39",0,0,148
+138,Bump spring.version from 4.3.30.RELEASE to 5.3.9,No,,1,0,2
+137,CONFIGURATION-808 - DefaultListDelimiterHandler.escapeList working only for List<String>,Yes,"6 days, 7:18:12",0,0,10
+136,Bump slf4j.version from 1.7.30 to 1.7.32,No,,1,0,2
+135,Bump spotbugs-maven-plugin from 4.2.3 to 4.3.0,No,,2,0,2
+134,Bump jackson-databind from 2.12.3 to 2.12.4,No,,1,0,2
+133,Bump jackrabbit-webdav from 1.5.2 to 2.21.7,No,,1,0,2
+132,Bump checkstyle from 8.43 to 8.44,Yes,"22 days, 21:16:48",0,0,2
+131,Simplify conditions and avoid extra checks.,No,,0,0,20
+130,Use diamond <>,No,,2,0,86
+129,Replace assert by simpler but equivalent calls.,No,,2,0,156
+128,Bump hsqldb from 2.5.1 to 2.5.2,Yes,0:15:44,1,0,2
+127,Bump jackson-databind from 2.12.2 to 2.12.3,Yes,0:05:12,0,0,4
+126,Bump snakeyaml from 1.28 to 1.29,Yes,0:13:25,0,0,4
+125,Bump slf4j.version from 1.7.30 to 1.7.31,No,,1,0,4
+124,Bump commons-pool2 from 2.9.0 to 2.10.0,Yes,0:02:16,0,0,4
+123,Bump spring.version from 4.3.30.RELEASE to 5.3.8,No,,3,0,2
+122,CONFIGURATION-808 - DefaultListDelimiterHandler.escapeList working only for List<String>,No,,6,0,433
+121,Bump checkstyle from 8.41 to 8.43,Yes,"26 days, 9:36:53",1,0,2
+120,Bump actions/cache from 2.1.4 to 2.1.6,Yes,"29 days, 8:19:27",0,0,2
+119,Bump actions/cache from 2.1.4 to 2.1.5,No,,1,0,2
+118,[COMMONSSITE-145] Upgrade checkstyle,Yes,"47 days, 23:29:31",0,0,4
+117,Bump checkstyle from 8.41 to 8.42,No,,1,0,2
+116,Bump spotbugs-maven-plugin from 4.2.0 to 4.2.3,Yes,"68 days, 8:47:35",0,0,2
+115,CONFIGURATION-806 - Replace construction of FileInputStream and FileOutputStream objects with Files NIO APIs.,No,,2,0,0
+114,CONFIGURATION-805 - Use try with resource,Yes,"71 days, 9:21:07",2,0,45
+113,CONFIGURATION-804 - Redundant local variable,Yes,"71 days, 9:27:46",2,0,40
+112,CONFIGURATION-803 Java 8 lambda improvements and more,Yes,"71 days, 9:35:11",2,0,108
+111,CONFIGURATION-802 - Use final,Yes,"71 days, 9:41:44",2,0,74
+110,CONFIGURATION-801 - Remove redundant initializer,Yes,"71 days, 9:52:37",2,0,10
+109,Bump jackrabbit-webdav from 1.5.2 to 2.21.6,No,,1,0,2
+108,Bump actions/cache from v2.1.4 to v2.1.5,No,,1,0,2
+107,Bump mailapi from 1.6.6 to 2.0.1,No,,6,13,37
+106,Bump actions/setup-java from v1.4.3 to v2,No,,1,0,2
+105,Bump checkstyle from 8.41 to 8.41.1,No,,1,0,2
+104,Bump spotbugs-maven-plugin from 4.2.0 to 4.2.2,No,,1,0,2
+103,Bump spring.version from 4.3.30.RELEASE to 5.3.5,No,,1,0,2
+102,Bump spring.version from 4.3.30.RELEASE to 5.3.4,No,,1,0,2
+101,Bump checkstyle from 8.39 to 8.41,Yes,"9 days, 7:57:13",0,0,2
+100,[Javadoc] Specify that typed getList returns null for missing key,Yes,"130 days, 3:43:49",0,0,2
+99,Bump actions/cache from v2 to v2.1.4,Yes,"30 days, 8:41:16",0,0,2
+98,Bump checkstyle from 8.39 to 8.40,No,,1,0,2
+97,Bump maven-checkstyle-plugin from 3.1.1 to 3.1.2,Yes,"37 days, 8:00:20",0,0,2
+96,Bump jackrabbit-webdav from 1.5.2 to 2.21.5,No,,1,0,2
+95,Bump spring.version from 4.3.30.RELEASE to 5.3.3,No,,1,0,2
+94,Bump jackson-databind from 2.12.0 to 2.12.1,Yes,0:06:15,0,0,2
+93,Bump spotbugs-maven-plugin from 4.1.4 to 4.2.0,Yes,"6 days, 23:57:20",0,0,2
+92,Bump spring.version from 4.3.27.RELEASE to 5.3.2,No,,1,0,2
+91,Minor Improvements,No,,4,18,355
+90,Bump checkstyle from 8.36.2 to 8.39,Yes,"1 day, 8:24:18",0,0,2
+89,Bump checkstyle from 8.36.2 to 8.38,No,,1,0,2
+88,Bump jackson-databind from 2.11.3 to 2.12.0,Yes,"33 days, 7:51:08",0,0,2
+87,Bump spring.version from 4.3.27.RELEASE to 5.3.1,No,,1,0,2
+86,exposed settings method for list delimiter handler in DefaultConversionHandler,No,,3,0,23
+85,Bump actions/checkout from v2.3.3 to v2.3.4,Yes,"59 days, 8:35:32",0,0,2
+84,Bump checkstyle from 8.36.2 to 8.37,No,,1,0,2
+83,Bump spring.version from 4.3.27.RELEASE to 5.3.0,No,,1,0,2
+82,CONFIGURATION-795: Computation of blank lines after header comment,Yes,3:05:21,1,0,56
+81,Bump mailapi from 1.6.5 to 2.0.0,No,,1,0,2
+80,Bump jackrabbit-webdav from 1.5.2 to 2.21.4,No,,1,0,2
+79,Bump spotbugs-maven-plugin from 4.1.3 to 4.1.4,Yes,"11 days, 9:22:11",0,0,2
+78,Bump junit from 4.13 to 4.13.1,Yes,18:07:19,0,0,2
+77,JUnit v4.13.1,No,,0,0,2
+76,CONFIGURATION-794: add test which demonstrates unclosed file handle,No,,12,1,32
+75,Bump spotbugs-maven-plugin from 4.0.4 to 4.1.3,Yes,"5 days, 18:49:19",0,0,2
+74,Implement Iterable in ImmutableNode,Yes,4:57:29,0,0,50
+73,Bump actions/setup-java from v1.4.2 to v1.4.3,Yes,"5 days, 8:40:38",0,0,2
+72,Bump commons-pool2 from 2.8.1 to 2.9.0,No,,1,0,2
+71,Bump checkstyle from 8.36 to 8.36.2,Yes,"8 days, 8:15:45",0,0,2
+70,Bump actions/checkout from v2.3.2 to v2.3.3,Yes,"12 days, 8:49:51",0,0,2
+69,Bump spring.version from 4.3.27.RELEASE to 5.2.9.RELEASE,No,,1,0,2
+68,Bump snakeyaml from 1.26 to 1.27,Yes,"22 days, 8:52:08",0,0,2
+67,Bump checkstyle from 8.36 to 8.36.1,No,,1,0,2
+66,Bump checkstyle from 8.26 to 8.36,Yes,"8 days, 10:08:06",0,0,2
+65,Bump actions/setup-java from v1.4.1 to v1.4.2,Yes,"13 days, 10:02:18",0,0,2
+64,Takari maven wrapper,No,,1,0,639
+63,Bump actions/setup-java from v1.4.0 to v1.4.1,Yes,"8 days, 9:38:40",0,0,2
+62,Bump actions/checkout from v2.3.1 to v2.3.2,Yes,9:30:17,0,0,2
+61,Bump commons-pool2 from 2.8.0 to 2.8.1,Yes,"4 days, 8:50:04",0,0,2
+60,Bump jackson-databind from 2.11.1 to 2.11.2,Yes,"4 days, 8:52:50",0,0,2
+59,Bump checkstyle from 8.26 to 8.35,No,,1,0,2
+58,Bump servlet-api from 2.4 to 2.5,Yes,"9 days, 8:59:19",0,0,2
+57,Bump maven-checkstyle-plugin from 3.1.0 to 3.1.1,Yes,"9 days, 9:02:02",0,0,2
+56,Bump jackrabbit-webdav from 1.5.2 to 2.21.3,No,,1,0,2
+55,Bump spotbugs-maven-plugin from 3.1.12.2 to 4.0.4,Yes,7:17:03,0,0,2
+54,Bump hsqldb from 2.5.0 to 2.5.1,Yes,7:21:56,0,0,2
+53,Bump checkstyle from 8.26 to 8.34,No,,1,0,2
+52,Bump jackrabbit-webdav from 1.5.2 to 2.21.2,No,,1,0,2
+51,Bump jackson-databind from 2.11.0 to 2.11.1,Yes,"1 day, 6:27:09",1,0,2
+50,Bump commons-parent from 50 to 51,Yes,"1 day, 5:08:01",0,0,2
+49,Bump spring.version from 4.3.27.RELEASE to 5.2.8.RELEASE,No,,1,0,2
+48,Bump mailapi from 1.6.4 to 1.6.5,Yes,"1 day, 6:29:06",1,0,2
+47,Bump actions/checkout from v1 to v2.3.1,Yes,"1 day, 5:07:58",0,0,2
+46,refine ci,No,,1,0,8
+45,Mention EnvironmentConfiguration in the list of configuration sources,Yes,"102 days, 21:01:36",1,3,4
+44,Release 1 11 branch,No,,1,0,484
+43,Fixed bug with FileHandlerReloadingDetector,No,,0,0,2
+42,CONFIGURATION-776: Upgrade to BeanUtils2,No,,2,0,54
+41,CONFIGURATION-773: User's Guide > Properties files > Saving - small documentation bugs,Yes,0:15:52,1,0,8
+40,CONFIGURATION-772: Exclude unused transitive deps,No,,1,0,10
+39,Exclude unused dependencies,No,,0,0,10
+38,Add new Configuration called PrefixConfiguration,No,,0,2,569
+37,Configuration-766: BigDecimal(double) should not be used.,No,,10,0,2
+36,[CONFIGURATION-764] Default date lookup can not work for some specific,No,,5,13,138
+35,[CONFIGURATION-760] Properties file using cyclical includes cause a StackOverflowError instead of detecting the misconfiguration.,Yes,1:38:14,1,0,209
+34,[CONFIGURATION-756] Allow for custom behavior to handle errors loading included properties files.,Yes,"2 days, 0:49:02",0,0,537
+33,Fix syntax in user guide documentation,Yes,"13 days, 18:41:51",0,0,2
+32,[CONFIGURATION-753] Use only first value for interpolation,No,,7,0,41
+31,Adding Power Support,Yes,"5 days, 8:28:05",1,0,5
+30,Add special handling for setting array properties,No,,1,0,68
+29,Adding support for power,No,,1,0,3
+28,Fix tests which compare against the environment,Yes,16:36:02,2,0,21
+27,"[CONFIGURATION-745] Add the special key ""includeoptional"" for properties files.",Yes,20:45:36,0,0,112
+17,[CONFIGURATION-732] Fix CI build break after upgraded from Java 7 to 8.,No,,1,0,1
+16,[CONFIGURATION-731] Allow user to specify the comments & separator ch…,No,,2,0,206
+15,CONFIGURATION-729: fixes inconsistency in example,No,,1,0,2
+14,[CONFIGURATION-715/716]: Updated the User's guide to include JupIOFac…,No,,1,0,37
+13,"CONFIGURATION-715, CONFIGURATION-716: Alternative IOFactory to mimic …",No,,0,0,37
+12,(doc) Fix typos in the user guides,No,,5,0,158
+11,Configuration 703,No,,1,0,6
+10,Fix site navigation group name for 2.x releases,No,,1,0,33
+9, Add .gitignore file.,No,,2,0,18
+8,pom.xml: add profile that allows build on java 9,No,,1,0,13
+7,Update to easymock- to fix test failures under java 8,No,,2,0,2
+6,CONFIGURATION-673: Add Automatic-Module-Name MANIFEST entry for Java …,No,,0,0,19
+5,Checkstyle,No,,4,0,49
+4,Proposed fix for CONFIGURATION-639,No,,1,0,2
+3,CONFIGURATION-634: BasePath is incorrectly computed while init of CompositeConfiguration,No,,1,0,56
+2,CONFIGURATION-634: BasePath is incorrectly computed while init of CompositeConfiguration,No,,1,0,0

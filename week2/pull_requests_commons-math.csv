@@ -1,0 +1,223 @@
+Pull Request Number,Title,Merged,Time to Merge,Comments,Review Comments,Lines of Code Changed
+230,MATH-1654: optimize Array2DRowRealMatrix getEntry,Yes,"1 day, 2:46:51",0,0,10
+229,Updated copyright to 2023,No,,0,0,2
+228,[docs]: fix small error,No,,0,0,2
+227,Fix rolling mean example code in Statistics docs,Yes,9:33:03,1,0,3
+226,Extract commons value.,No,,1,1,54
+225,Improve formatting.,Yes,"1 day, 1:23:54",1,2,8
+224,Remove unnecessary unary operator.,No,,2,0,60
+223,Simplify assertion same result but simplest.,No,,2,14,16
+222,JUnit5 assertThrows ExponentialDecayFunctionTest,Yes,0:06:18,2,0,27
+221,JUnit5 assertThrows QuasiSigmoidDecayFunctionTest,Yes,0:07:38,0,0,21
+220,JUnit5 assertThrows LearningFactorFunctionFactoryTest,Yes,0:09:15,0,0,56
+219,MATH-1569 - Manual array copy.,Yes,"4 days, 23:26:50",10,14,41
+218,JUnit5 assertThrows NeighbourhoodSizeFunctionFactoryTest,Yes,0:12:43,0,0,44
+217,java 8 improvements. ,No,,4,15,107
+216,JUnit5 assertThrows NeuronSquareMesh2DTest,Yes,11:50:52,1,3,26
+215,JUnit5 assertThrows MapRankingTest,Yes,11:51:58,3,2,15
+214,JUnit5 assertThrows TransformUtilsTest,Yes,0:37:57,0,2,19
+213,[MATH-1651] fix flaky test in commons-math-neuralnet,No,,3,0,28
+212,Include the initial point in the minimum number of points to form a c…,No,,0,0,41
+211,MATH-1647: fixed HaltonSequenceGenerator.skipTo() method to throw Not…,No,,1,0,15
+210,MATH-1648: Derivative computations for BicubicInterpolator,No,,12,22,496
+209,MATH-1563: Introducing new implementation of GA functionality (WIP).,No,,0,0,1249
+208,MATH-1563: Introducing new implementation of GA functionality (WIP),No,,0,0,1435
+207,Fix wrong documentation for exceptions in StatUtils and add missing,No,,0,0,32
+206,Add missing tests and documentation for exceptions in 2 Solvers classes,No,,0,0,66
+205,MATH-1563: Minor bug fixes.,No,,1,0,1631
+204,MATH-1563: Minor Bug fixes and restructuring of 'examples-ga' module.,No,,2,0,452
+203,Feature/math 1563 rb fix,No,,1,0,11334
+202,Avoid array declarations written in C-style syntax and replace it with java.,No,,0,0,110
+201,Remove StatUtilsTest.java.orig,No,,0,0,556
+200,MATH-1563: Introducing new implementation of GA functionality (WIP).,No,,0,1,11729
+199,Feature/math 1563 adaptive,No,,0,0,10963
+198,MATH-1462: Reproduce the infinite quantile bug,No,,0,0,24
+197,Feature/math 1563,No,,3,2,9075
+196,Simplify assertions with equivalent but more simple.,Yes,"4 days, 22:21:09",4,12,485
+195,Simplify assertions with equivalent but more simple.,No,,0,0,522
+194,MATH-1573 - Redundant local variable,No,,1,2,21
+193,MATH-1572: Simplify conditional expressions,No,,3,2,67
+192,MATH-1617: Fix hashcode not updated with equals.,No,,1,0,3
+191,MATH-1528 : Remove serializable from cluster and distantMeasure,No,,1,0,10
+190,MATH-1597: LowDiscrepancySequence supplier/jump for Halton and Sobol,No,,3,8,3042
+189,"MATH-1598: Remove UniformRandomGenerator, replaced by ContinuousUnifo…",No,,0,0,6
+188,"MATH-1600: NormalizedRandomGenerator as ""DoubleSupplier",No,,0,0,38
+187,MATH-1597:  LowDiscrepancySequence supplier for Halton and Sobol proposal,No,,1,0,0
+186,"MATH-1592:  Remove ""NumberTransformer""",No,,0,0,654
+185,MATH-1468: moved Decimal64 and Decimal64Field to test,No,,0,0,2
+184,Correct Mann-Whiteney U Test,No,,1,0,213
+183,https://issues.apache.org/jira/browse/MATH-1453,No,,0,0,213
+182,MATH-1586: Moved classes that are only used by a single package over to that package,No,,0,0,435
+181,Feature/math 1586,No,,1,0,432
+180,"MATH-1587 create submodule structure for legacy and exception along, …",No,,0,0,1309
+179,Math 1453 Mann-Whitney U Test returns minimum of U1 and U2,No,,0,0,535
+178,"MATH-1579 cluster leak, addPoints assert, module clustering, last dep…",No,,0,0,219367
+177,MATH-1573 - Redundant local variable,No,,1,10,122
+176,MATH-1572 - Simplify Conditions:,No,,1,1,146
+175,MATH-1571 - Collections Performance,Yes,3:48:57,2,0,5
+174,MATH-1569 - Manual array copy,No,,1,0,42
+173,MATH-1570 - Redundant operation:,No,,1,0,24
+172,Remove redundant variable Initializer,No,,1,0,76
+171,Replace construction of FileInputStream and FileOutputStream objects with Files NIO APIs.,No,,1,0,6
+170,Shutdown execution services (in test classes) once the results are taken,No,,1,0,2
+169,Add convenience constructor for StatisticalSummaryValues,No,,0,0,26
+168,MATH-1566: Fix CheckStyle Issues,No,,0,0,100
+167,[MATH-1564] - Minor improvement,No,,0,0,143
+166,Update EnumeratedDistribution.java,Yes,0:12:44,0,0,2
+165,Update MathUtils.java,No,,0,0,4
+164,Method stage in class TrapezoidIntegrator rewrite as override. Remove not using Exception,No,,0,0,112
+163,[MATH-1560] Fix flaky testGetAvailableLocales,No,,1,0,5
+162,[MATH-1559] Fix assertion failure with epsilon ,No,,1,0,2
+161,[MATH-1558] Fix MidPointIntegrator incremental implementation,Yes,2:05:54,1,1,72
+160,enable dependabot,No,,1,0,25
+159,JUnit v4.13.1,Yes,3:45:10,1,0,2
+158,Code cleanup: Remove unused imports,Yes,2:20:56,1,0,822
+157,MATH-1551: Add Weighted percentile features,Yes,"4 days, 10:50:05",1,0,605
+156,Use static final int for IEEE exponent shift constant.,No,,1,0,6
+155,Standardize constants before running simplex algorithm. Fixes MATH-1549.,Yes,"4 days, 12:51:40",2,0,230
+154,Modify some loop using stream API,No,,2,0,70
+153,Add convenience method for initialization,No,,1,0,23
+152,[MATH-1545] Follow best practice to test ordering in implementation of Comparable,No,,0,0,2
+151,Why we compare two Integers with == but not equals()?,No,,0,0,2
+150,[MATH-1544] delete a needless (IMO) null for double varargs parameter.,No,,0,0,2
+149,[MATH-1543] use instanceof check instead of catch ClassCastException in some function.,No,,0,0,26
+148,[MATH-1542] remove `== null` as it is covered by `instance of`,No,,0,0,2
+147,[MATH-1541] break the loop when we can.,No,,0,0,5
+146,Simplify if condition ,No,,18,0,8
+145,Replace for with forEach,No,,1,0,42
+144,[MATH-1538] refine some codes dealing with filling an array with its first and second elements.,No,,4,2,40
+143,[MATH-1539] use System.arraycopy instead of loop for better performance.,No,,2,0,59
+142,use subList().clear instead of a loop of remove(0),No,,3,0,4
+141,use addAll instead of loop.,No,,1,0,33
+140,[MATH-1537] clean-up a test,Yes,"1 day, 19:42:05",1,0,51
+139,[MATH-1537] fix_typos,No,,1,0,341
+138,[MATH-1537] delete unused imports,No,,0,0,25
+137,[MATH-1537] refine javadoc,Yes,7:38:40,1,0,46
+136,[MATH-1537] Refine jafvadoc and fix typos,No,,2,0,412
+135,refine travis-ci scripts.,Yes,6:29:16,1,0,4
+134,EnumeratedDistribution: Use non-indexing for loop to improve performance in case of LinkedList,No,,1,0,12
+133,MATH-1524: Remove package initialization and reuse chooseInitialCente…,Yes,8:17:16,1,0,534
+132,MATH-1509: Add missing documentation to class ImprovementEvaluator,Yes,1:23:08,1,0,9
+131,MATH-1524: Add package-info.java file in package initialization.,No,,1,0,24
+130,#MATH-1524: Add package-info.java file in package initialization.,No,,2,0,24
+129,#MATH-1509: Add missing documentation to class MiniBatchKMeansCluster…,No,,2,0,9
+128,#MATH-1509: Implement the MiniBatchKMeansClusterer.,No,,1,0,457
+127,"#MATH-1525 Make ""EmptyClusterStrategy"" and related logic in KMeansPlu…",No,,0,0,67
+126,"#MATH-1525 Move out ""EmptyClusterStrategy"" from KMeansPlusPlusClusterer",No,,4,0,558
+125,"MATH-1524 Move ""chooseInitialCenters"" out of the KMeansPlusPlusClusterer",No,,0,0,473
+124,MATH-1522 Remove generic parameter in ClusterEvaluator and ClusterRan…,No,,0,0,77
+123,MATH-1519 Implement Calinski-Harabasz clusters evaluator.,No,,1,0,332
+122,Implement the Calinski-Harabasz Evaluator algorithm for Cluster,No,,1,0,324
+121,(doc) Fix Javadoc of WilcoxonSignedRankTest.wilcoxonSignedRankTest,No,,1,0,4
+120,Feature mini batch k means2,No,,1,0,1052
+119,Annotated FastMath.java,No,,0,0,63
+118,Feature MiniBatchKMeans,No,,1,0,1024
+117,Implement the MiniBatchKMeansClusterer,No,,4,0,743
+116,(doc) Fix incorrect exception types in Javadoc of AnyMatrix.,No,,0,0,4
+115,[MATH-1408]: Replace try/catch with CCE by if/else,Yes,3:24:11,2,0,762
+114,Typo + Gender Neutral Pronouns,Yes,0:28:17,0,0,10
+113,Update build files,Yes,19:11:09,3,0,563
+112,improvement-MATH-1494,No,,0,0,197
+111,Misleading range of input in reducePayneHanek() in FastMath.java of util package,No,,0,0,379
+110,Close ObjectOutputStream before calling toByteArray on underlying ByteArrayOutputStream,No,,0,0,1
+109,MATH-1492: Replace usages of commons-numbers-core methods with equivalent java.lang.Math methods,Yes,21:19:59,0,0,25
+108,adding power support,No,,0,0,3
+107,MATH-1486: Add Automatic-Module-Name to MANIFEST,Yes,"103 days, 21:15:23",0,0,21
+106,Pull request for GLSMultipleLinearRegression,No,,1,0,102
+105,improvement-MATH-1481 Sobol dimension extension,Yes,"5 days, 12:23:35",1,2,22217
+104,MATH-1477: fix reordering check in MillerUpdatingRegression.regress,Yes,6:39:38,1,0,47
+103,The TreeBuilder constructor does not check the validity of the input String s,No,,1,0,13
+102,Flush ObjectOutputStream before calling toByteArray on underlying ByteArrayOutputStream,No,,1,0,20
+101,Merge pull request #1 from apache/master,No,,2,0,0
+92, Update ClopperPearsonInterval for x=0 and x=n,No,,1,0,22
+91,Update SchurTransformer.java,No,,1,0,2
+90,Unit Tests for failing BiCubicInterpolation,No,,1,0,0
+89,Fix testing dimension of D in  EigenDecompositionTest#testDimensions(),No,,1,0,2
+88,Edit Expecting Exception Messages in MatrixUtilsTest,No,,1,0,4
+87,Fixed Spelling.,No,,1,0,2
+86,"for a large number of params, avoid copying array.",Yes,"84 days, 19:58:16",2,0,122
+85,Math 1458,Yes,5:57:35,1,0,297
+84,MATH-1459:  Create a way to automatically calculate a Jacobian Matrix using a Differentiator,No,,1,0,492
+83,"Added clamped spline interpolator, based on Burden, R and Faires, D. …",No,,1,0,157
+82,MATH-1416: Use Complex factory methods,Yes,5:28:30,0,0,240
+81,MATH-1450: Fixing PolygonsSet to return correct last vertex for open loops,Yes,"4 days, 5:17:05",2,1,1300
+80,MATH-1449: PolygonsSet.getBarycenter() should return NaN for empty regions,Yes,"2 days, 4:37:45",1,0,61
+79,(bugfix) EmpiricalDistribution cumulative probability returns NaN if bin doesn't have data points,No,,4,0,27
+78,MATH-1447: PolygonsSet Intersecting Infinite Lines Fix,No,,1,0,47
+77,MATH-1437: 1D and 3D geometry tests,Yes,8:15:07,1,0,3254
+76,Some state change not take effect in BOBYQA's bobyqb and trsbox,No,,1,0,574
+75,MATH-1442: Size calculation in PolyhedronsSet,Yes,"1 day, 20:42:10",0,0,223
+74,MATH-1439: Gracefully handle Characterization edge case,No,,1,0,433
+73,MATH-1436: PolygonsSet inifinite line fixes,Yes,"1 day, 14:22:08",1,0,127
+72,MATH-1436: SubOrientedPoint tolerance fix and unit test,Yes,"1 day, 14:24:07",1,0,185
+71,MATH-1436: Fixes and unit tests for v3.6.x,No,,1,0,176
+70,MATH-1436: adding fixes and unit tests,No,,2,0,178
+69,Consider returning a zero length array rather than null.,No,,1,0,4
+68,"Remove the useless condition ""variablesToInclude.length > 1"".",No,,1,0,2
+67,Replace the inefficient Double constructor with static Double.valueOf() method.,No,,2,0,2
+66,Remove the redundant null check expression of a non-null value lastResult.,No,,6,0,2
+65,Feature: Support for larger sparse matrices,No,,2,0,1874
+64,Added empty relativePath element to parent in pox.xml in order to avoid Maven warning,No,,2,0,1
+63,(doc) Fix throw desc for sampling funcs,No,,1,0,2
+62,MATH-1419: Invalid usage of exception in PolynomialSplineFunction,Yes,0:39:44,1,0,6
+61,Static code analysis,No,,1,0,52
+60,"MATH-1401: cover cases where successes is zero, and where successes and trials are equals",No,,0,0,34
+59,MATH-1381 check when both critical values are equal,No,,2,0,6
+58,MATH-1413 add generics to the Frequency class,Yes,"23 days, 9:19:34",1,0,729
+57,Avoid manual array copy to increase the performance,No,,2,0,4
+56,Allow 3.6.1 to compile with GWT 2.8.0,No,,0,0,82267
+55,MATH-1405: Iteratively double minDelta for Kolmogorov-Smirnov Test jiggling,Yes,18:43:57,0,0,35
+54,added constructor with Double[] argument to DescriptiveStatistics,No,,8,0,0
+53,Missing case in check,No,,1,0,2
+52,Missing case in exception handling,No,,1,0,2
+51,MATH-1402 Incorrect calculation at BigFraction's doubleValue and floatValue,No,,0,0,37
+50,MATH-1402 Incorrect calculation at BigFraction's doubleValue and floatValue,No,,1,0,37
+49,MATH-1359: Create expm1(x)/x implementation,No,,0,0,121
+48,MATH-1358: Create log1p(x)/x implementation,No,,0,0,121
+47,MATH-1397: Complex.ZERO.pow(2.0) is NaN,No,,1,0,34
+46,Use Collections.singletonList where only one element is added to a li…,No,,2,0,0
+45,[MATH-1390] LUDecomposition slow on larger matrices,No,,0,0,536
+44,"MATH-1387: making sudo required, upping memory profile, adding RetryRunner",Yes,0:35:19,3,0,12
+43,[MATH-1381] fix a bug that sometimes Binomial test return probability greater than 1,No,,3,0,54
+42,[MATH-1382] MultivariateNormalDistribution.density() unnecessarily copies means array in loop,No,,1,0,6
+41,Removing test redundant for org.apache.commons.math4.special.GammaTest.testLogGammaNegative,No,,0,0,6
+40,update test PolynomFunction,No,,0,1,15
+39,fixed javadoc of constructors in DescriptiveStatistics,No,,4,0,18
+38,update test PolynomFunction,No,,3,2,15
+37,[MATH-1374]:Aadd center as first point of the cluster while seeding.,No,,0,0,30
+36,[MATH-1372]: Add argmin/argmax static functions to MathArrays utility…,No,,0,0,126
+35,[MATH-1371] - Implementation of Elkan optimizations for kmeans++.,No,,0,0,502
+34,Increase efficiency of EnumeratedDistribution,No,,1,0,94
+33,Changed Math.ulp in ComplexUtilsTest to 0. ,Yes,3:20:51,0,0,176
+32,MATH-1318 Implement reflection formula to digamma function to improve performance on negative values.,Yes,"8 days, 22:27:05",0,0,43
+31,Feature math 1290,Yes,"6 days, 7:33:52",0,0,1054
+30,test-MATH-1350,Yes,"6 days, 21:37:21",0,0,780
+29,Changes proposed in feature-MATH-1290,Yes,3:59:57,0,0,1054
+28,Feature math 1290,No,,0,0,3048
+27,math-1290 Additions to Complex Utils,No,,0,0,2834
+26,Develop,No,,0,0,140
+25,Added various utility methods for Complex[] data.,No,,0,0,2698
+24,Initial commit of basic finite difference infrastructure.,No,,0,0,2798
+23,"Improved digamma function, especially for negative values.",No,,3,0,43
+22,Math1302and1303,No,,3,0,81
+21,Updated ArithmeticUtils javadoc,No,,0,0,5580
+20,Updated FieldMatrix exceptions thrown to match javadoc,No,,0,0,4
+19,Updated FieldElement javadoc,No,,0,0,2
+18,Incorporation of complex interleaved functionality into ComplexUtils,No,,0,0,953996
+17,Discrete maths,No,,1,0,773
+16,MATH-1273,No,,0,0,389
+15,MATH-1272,No,,0,0,9
+14,MATH-1269,No,,0,0,31
+13,MATH-1271,No,,0,0,363
+12,added constructor with Double[] argument to DescriptiveStatistics,No,,4,0,1925
+11,added initial .travis.yml,No,,0,0,1
+10,MATH-1159,No,,0,0,83
+9,"Add getXmax(), getXmin(), getYmax(), getYmin()",No,,0,0,32
+8,"Add ebeCosine, ebeSine, ebeTan, ebeAtan, ebeSqrt",No,,0,0,75
+7,Add ebePower function,No,,0,0,16
+6,Add abs(double[] arr) function,No,,3,0,7
+5,MATH-1222: Use Double.isNaN(double) instead of x != x in FastMath,No,,0,0,26
+4,Add README.md and CONTRIBUTING.md,Yes,"1 day, 5:38:47",1,0,195
+3,MATH-1138 cleanup pull request,No,,0,0,2590
+2,MATH-1138 implementation pull request,Yes,"1 day, 18:17:40",0,0,2264
+1,Updated the class description,Yes,"5 days, 16:00:40",0,0,26

@@ -1,0 +1,195 @@
+Pull Request Number,Label by Melika,Label by Milad,Title,Comment Messages,Merged,Time to Merge,Comments,Review Comments,Review Messages,Lines of Code Changed
+230,Performance issues,Code style problems,MATH-1654: optimize Array2DRowRealMatrix getEntry,[],Yes,"1 day, 2:46:51",0,0,[],10
+229,Security issues,Security issues,Updated copyright to 2023,[],No,,0,0,[],2
+228,Code style problems,Code style problems,[docs]: fix small error,[],No,,0,0,[],2
+227,Code style problems,Code style problems,Fix rolling mean example code in Statistics docs,[],Yes,09:33:03,1,0,[],3
+226,Functional bugs,Functional bugs,Extract commons value.,"['This loop is a bug. There should not be two return statements in the for loop. The candidate should only be stored if it is not the same as all the values in the list. I have updated master with the fix.\r\n\r\nAs for the rest of the changes these are all of the type:\r\n```\r\nif () {\r\n   x = ...\r\n   return x\r\n} else {\r\n   x = ...\r\n   return x\r\n}\r\n```\r\nto:\r\n```\r\nif () {\r\n   x = ...\r\n} else {\r\n   x = ...\r\n}\r\nreturn x\r\n```\r\nI do not see any benefit to this change. It introduces an extra jump condition for the first block which must jump then return, rather than just returning.']",No,,1,1,[''],54
+225,Code style problems,Code style problems,Improve formatting.,"['I do not mind the duplicate code. I am assuming this has been written based on a known method for the 5(4) Higham and Hall integrator and would be recognisable when compared to the original source.\r\n\r\nHowever it can be improved with better formatting within the else block:\r\n```Java\r\nfinal double b0 = h * (-1.0/12.0   + theta  * (1.0        + theta * (-15.0/4.0   + theta * (16.0/3.0 + theta * -5.0/2.0))));\r\nfinal double b2 = h * (-27.0/32.0  + theta2 * (459.0/32.0 + theta * (-243.0/8.0  + theta * 135.0/8.0)));\r\nfinal double b3 = h * (4.0/3.0     + theta2 * (-22.0      + theta * (152.0/3.0   + theta * -30.0)));\r\nfinal double b4 = h * (-125.0/96.0 + theta2 * (375.0/32.0 + theta * (-625.0/24.0 + theta * 125.0/8.0)));\r\nfinal double b5 = h * (-5.0/48.0   + theta2 * (-5.0/16.0  + theta *  5.0/12.0));\r\n```', ""I'm not 100% convinced. But I've done the PR anyway""]",Yes,"1 day, 1:23:54",1,2,"['', '']",8
+224,Code style problems,Code style problems,Remove unnecessary unary operator.,[],No,,2,0,[],60
+223,Missing tests,Missing tests,Simplify assertion same result but simplest.,"['This is testing the `equals()` method. Please revert.', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'This is testing `equals()`, please revert', 'No delta required when delta==0.0', 'The method without delta its deprecated. `Deprecated\r\nUse assertEquals(double expected, double actual, double delta) instead` ', 'This still needs to be reverted. Thanks.']",No,,2,14,"['A load of changes here in methods named testEqualsAndHashCode. These must test the equals method to get path coverage. So please revert them.\r\n\r\nThis also fails CI on Java 8 for a compile error. Please check that.', '', '']",16
+222,Missing tests,Missing tests,JUnit5 assertThrows ExponentialDecayFunctionTest,[],Yes,00:06:18,2,0,[],27
+221,Missing tests,Missing tests,JUnit5 assertThrows QuasiSigmoidDecayFunctionTest,[],Yes,00:07:38,0,0,[],21
+220,Missing tests,Missing tests,JUnit5 assertThrows LearningFactorFunctionFactoryTest,[],Yes,00:09:15,0,0,[],56
+219,Code style problems,Code style problems,MATH-1569 - Manual array copy.,"['use `> 0` as arraycopy with a length of 0 is a wasted call to a native method. Add enclosing braces to fix checkstyle.', '`> 0`', '`> 0`', '`> 0`', '`> 0`', '`> 0`', 'This is wrong', 'This is wrong', 'This is wrong. f[0 and f[1] have been set and should be duplicated through the array.', 'Since you removed two lines above `527` this should be `""525,739""`. Please change and verify with `mvn checkstyle:check` in this module.', 'done.', 'Now you have fixed the checkstyle suppressions file, you can revert the changes to the parentheses', 'I think this may be better as:\r\n```Java\r\nfinal Complex[] c = coefficients.clone();\r\n```', 'This is still not updated to use ` > 0`']",Yes,"4 days, 23:26:50",10,14,"['Checkstyle is failing this too. The changes to use arraycopy look good but please add the missing enclosing braces.', '', 'I noticed the CI build failure on the same tests in the differentiation package. This is because some of the loop copy statements are duplicating the first 2 elements through the rest of the array. This is different from a system arraycopy which will copy the first two elements to the next two elements. But the downstream elements are not duplicates of the first two, they are copies of the two previous elements in the original array:\r\n\r\n```\r\ndata = [a, b, c, d, e, f]\r\n\r\nfor (int i = 2; i < data.length; ++i) {\r\n    data[i] = data[i - 2];\r\n}\r\n// data = [a, b, a, b, a, b]\r\n\r\narraycopy(data, 0, data, 2, data.length - 2);\r\n// data = [a, b, a, b, c, d]\r\n```\r\n', '', '', 'Nearly there. 1 small change not yet done, 1 reversion, and a new change to use array.clone().\r\n\r\nThanks.']",41
+218,Missing tests,Missing tests,JUnit5 assertThrows NeighbourhoodSizeFunctionFactoryTest,[],Yes,00:12:43,0,0,[],44
+217,Performance issues,Performance issues,java 8 improvements.,"['Should this be `if (shiftedP.length -1 > 0)` (since we cannot copy length=0).\r\n\r\nPlease add enclosing braces.', 'Whitespace indentation', 'Indentation again', ""Didn't notice this before. I would not remove the extra parentheses as it makes it obvious over knowing the operator precedence of && over ||."", 'Again please revert', 'Please revert', 'use `> 0`', 'done.', 'done.', 'done.', 'done.', 'Please revert the indentation too', 'This has incorrect indentation', 'Done', 'Done']",No,,4,15,"['Thanks for the updates. A few small changes required.\r\n\r\nNote that CI is failing on checkstyle unused imports.', 'Some minor reversions please. Thanks.', '', '', '', '', 'A couple of whitespace issues to fix please', '', '']",107
+216,Missing tests,Missing tests,JUnit5 assertThrows NeuronSquareMesh2DTest,"['Again, remove `Executable`. It is good practice to have only one potential source for the exception inside the assertThrows lambda. E.g. this is bad as the exception could be from either line:\r\n```Java\r\nassertThrows(IllegalArgumentException.class, () -> {\r\n    ClassA a = new ClassA();\r\n    ClassB b = new ClassB(a);\r\n});\r\n```\r\nThis would be where we create object `a` outside the assertThrows and then isolate where we expect the exception (from `b`).\r\n\r\nSince we have a clean lambda function here then just put it in assertThrows.', 'In the case where the style has aligned trailing arguments can you try and keep to the formatting, e.g.\r\n```Java\r\n//                     | aligned here\r\nnew NeuronSquareMesh2D(1, false,\r\n                       2, false,\r\n                       SquareNeighbourhood.VON_NEUMANN,\r\n                       initArray));\r\n```\r\n\r\nThis alignment aids readability (for the original content creator, opinions may differ) and is used across the codebase. When not used then trailing lines are either 4 or 8 space indent.\r\n', ""done alignment, i'm just using IntelliJ auto formatting, if your aware of a Apache Commons Code Style file for IntelliJ it would make life easier in future.""]",Yes,11:50:52,1,3,"['', '', '']",26
+215,Missing tests,Missing tests,JUnit5 assertThrows MapRankingTest,"['Here is an example where the source of the exception is not clear. Can you break this down to create the valid objects first and catch the exception from I presume `MapRanking.rank`.', 'extracted setup, so only rank is checked.']",Yes,11:51:58,3,2,"['', '']",15
+214,Missing tests,Missing tests,JUnit5 assertThrows TransformUtilsTest,"['I would remove the import of `Executable` and just use the lambda function direct within assertThrows.', 'happy to refactor to your style, i just find it easier this way with junior/new developers than making messy lambda function blocks.']",Yes,00:37:57,0,2,"['', '']",19
+213,Missing tests,Missing tests,[MATH-1651] fix flaky test in commons-math-neuralnet,[],No,,3,0,[],28
+212,Performance issues,Code style problems,Include the initial point in the minimum number of points to form a c…,[],No,,0,0,[],41
+211,Code style problems,Code style problems,MATH-1647: fixed HaltonSequenceGenerator.skipTo() method to throw Not…,[],No,,1,0,[],15
+210,Code style problems,Code style problems,MATH-1648: Derivative computations for BicubicInterpolator,"['Q. Why has this been replaced with the matrix multiply?\r\n\r\nUsing the Matrix objects is far less efficient.', 'These can all drop the public keyword.', 'Add ` * ` at the start of the line for correct javadoc formatting', 'Have you tested this when `xR` and `yR` are not 1? I would suggest simply repeating the test with `xR` and `yR` as  0.5 and 2 then testing the derivative is correctly scaled.\r\n', '`BicubicSplineFunction` does not exist; it should be `BicubicFunction`', '`BicubicSplineInterpolatingFunction` does not exist', '`BicubicSplineInterpolator` does not exist', '`BicubicSplineInterpolatingFunction` does not exist', '`BicubicSplineInterpolatingFunction` does not exist. Please update all 5 references in the javadoc of this class to `BicubicInterpolatingFunction`', 'I thought using the Matrix functionality would have made the code much clearer than reinventing the wheel.\r\nIf you want I can rollback it to the previous method (that was indeed multiplying the matrix with the column) but I would expect the matrix packages/classes to be as mush as efficient ... ', 'Done!', 'Done!', 'Look at testMatchingPartialDerivatives test.', 'Done!', 'Done!', 'Done!', 'Done!', 'Done!', 'If you find the actual method in `org.apache.commons.math4.legacy.linear.Array2DRowRealMatrix.multiply` then you will see that it is not efficient at all. In my experience using the OO matrix classes is 5-10x slower than a manually written implementation that avoids defensive copying of all intermediate arrays.\r\n\r\nPlease revert the change as it is not required (functionality is the same).', 'That uses an interval of 1 / 20 for both axes. Perhaps update to have different step sizes for each axis. This will ensure xR and yR are not mixed up.', 'I feel kinda sad.\r\nAnyway I reverted as you suggested !', ""Done ! I updated that test to have different xval and yval array, and it's still working.""]",No,,12,22,"['Thanks for the addition.\r\n\r\nThere are some javadoc errors due to referencing the old class names with `Spline`.\r\n\r\nI do not understand why there was a switch to the matrix multiplication. The original `computeSplineCoefficients` would be much more efficient. IIUC it should be a simple row vs column multiplication.\r\n', '', '', '', '', '', '', '', '', '', '', '', '', '']",496
+209,Code style problems,Code style problems,MATH-1563: Introducing new implementation of GA functionality (WIP).,[],No,,0,0,[],1249
+208,Code style problems,Code style problems,MATH-1563: Introducing new implementation of GA functionality (WIP),[],No,,0,0,[],1435
+207,Performance issues,Code style problems,Fix wrong documentation for exceptions in StatUtils and add missing,[],No,,0,0,[],32
+206,Missing tests,Functional bugs,Add missing tests and documentation for exceptions in 2 Solvers classes,[],No,,0,0,[],66
+205,Functional bugs,Functional bugs,MATH-1563: Minor bug fixes.,[],No,,1,0,[],1631
+204,Functional bugs,Functional bugs,MATH-1563: Minor Bug fixes and restructuring of 'examples-ga' module.,[],No,,2,0,[],452
+203,Code style problems,Code style problems,Feature/math 1563 rb fix,[],No,,1,0,[],11334
+202,Code style problems,Code style problems,Avoid array declarations written in C-style syntax and replace it with java.,[],No,,0,0,[],110
+201,Missing tests,Missing tests,Remove StatUtilsTest.java.orig,[],No,,0,0,[],556
+200,Functional bugs,Functional bugs,MATH-1563: Introducing new implementation of GA functionality (WIP).,[],No,,0,1,[],11729
+199,Code style problems,Code style problems,Feature/math 1563 adaptive,[],No,,0,0,[],10963
+198,Functional bugs,Functional bugs,MATH-1462: Reproduce the infinite quantile bug,[],No,,0,0,[],24
+197,Code style problems,Code style problems,Feature/math 1563,"['Remove the 4 from math4. The version is specified separately from the artifact ID.', 'Done and committed.']",No,,3,2,"['', '']",9075
+196,Code style problems,Code style problems,Simplify assertions with equivalent but more simple.,"['`p1` should be the first argument to allow the assert method to invoke `p1.equals(null)`', '`m` should be the first argument', '`m` should be the first argument', '`m` should be the first argument', '`m` should be the first argument', '`v` should be the first argument', '`m` should be the first argument', '`m` should be the first argument', '`pv1` should be the first argument', '`markers` should be the first argument', '`ptile` should be the first argument', '`ptile` should be the first argument']",Yes,"4 days, 22:21:09",4,12,['All looks good except for assertions testing the `equals` method on an object. These must put the object where the equals method will be invoked as the first argument to the assertion. In particular this allows testing `o.equals(null)` on the object being tested (since `null.equals(o)` is nonsense.'],485
+195,Code style problems,Code style problems,Simplify assertions with equivalent but more simple.,[],No,,0,0,[],522
+194,Code style problems,Code style problems,MATH-1573 - Redundant local variable,"['I am wondering about the cryptic commented out code here. It would be run after the result has been computed with `exp`. So if you simply return the result of `exp` then the comment is before the `exp` and out of context. I would leave this unchanged until the reason for commenting out the final computation is clarified.', 'HI @aherbert \r\nSound logical. I made rollback of this change.\r\nTY']",No,,1,2,"['', '']",21
+193,Code style problems,Code style problems,MATH-1572: Simplify conditional expressions,"['No need to store the result in `comp`. Just return the result direct.', 'yes, inline variable.\r\nTY']",No,,3,2,"['All changes look good.', '']",67
+192,Code style problems,Performance issues,MATH-1617: Fix hashcode not updated with equals.,[],No,,1,0,[],3
+191,Performance issues,Code style problems,MATH-1528 : Remove serializable from cluster and distantMeasure,[],No,,1,0,[],10
+190,Performance issues,Performance issues,MATH-1597: LowDiscrepancySequence supplier/jump for Halton and Sobol,"['Please remove this newline', 'Please remove this newline', 'Please remove this newline', 'Please remove this newline', 'Can you please remove these 2 extra lines as well', 'extra line', 'We can give the reference to the exception class as well `org.apache.commons.math4.legacy.exception.NotPositiveException`', 'Make the `J` capital']",No,,3,8,"['', '', 'LGTM']",3042
+189,Performance issues,Code style problems,"MATH-1598: Remove UniformRandomGenerator, replaced by ContinuousUnifo…",[],No,,0,0,[],6
+188,Performance issues,Code style problems,"MATH-1600: NormalizedRandomGenerator as ""DoubleSupplier",[],No,,0,0,[],38
+187,Performance issues,Code style problems,MATH-1597:  LowDiscrepancySequence supplier for Halton and Sobol proposal,[],No,,1,0,[],0
+186,Code style problems,Code style problems,"MATH-1592:  Remove ""NumberTransformer""",[],No,,0,0,[],654
+185,Missing tests,Missing tests,MATH-1468: moved Decimal64 and Decimal64Field to test,[],No,,0,0,[],2
+184,Missing tests,Code style problems,Correct Mann-Whiteney U Test,[],No,,1,0,[],213
+183,Performance issues,Code style problems,https://issues.apache.org/jira/browse/MATH-1453,[],No,,0,0,[],213
+182,Performance issues,Performance issues,MATH-1586: Moved classes that are only used by a single package over to that package,[],No,,0,0,[],435
+181,Code style problems,Code style problems,Feature/math 1586,[],No,,1,0,[],432
+180,Performance issues,Code style problems,"MATH-1587 create submodule structure for legacy and exception along, …",[],No,,0,0,[],1309
+179,Missing tests,Missing tests,Math 1453 Mann-Whitney U Test returns minimum of U1 and U2,[],No,,0,0,[],535
+178,Performance issues,Functional bugs,"MATH-1579 cluster leak, addPoints assert, module clustering, last dep…",[],No,,0,0,[],219367
+177,Code style problems,Code style problems,MATH-1573 - Redundant local variable,"[""`len` is a double but `length` is an int, I suspect it's preferable to cast only once here."", 'Hi @ebourg \r\nsounds fair. Changed\r\nTY', 'Same observation for the casting here', 'Same here', 'And here', 'This comment should go away too', 'Changed', 'Changed', 'Changed', 'Changed']",No,,1,10,"['', '', '', '', '', '', '', '', '', '']",122
+176,Code style problems,Code style problems,MATH-1572 - Simplify Conditions:,"[""The comment is then wrong, isn't it? Before it checked if there are no ties (`values.length == x.length + y.length`) and the comment was related to the `false` return value. Now it directly checks if there are ties which is basically the name of the method so that the comment could be simply removed, right?""]",No,,1,1,[''],146
+175,Performance issues,Code style problems,MATH-1571 - Collections Performance,[],Yes,03:48:57,2,0,[],5
+174,Performance issues,Performance issues,MATH-1569 - Manual array copy,[],No,,1,0,[],42
+173,Performance issues,Code style problems,MATH-1570 - Redundant operation:,[],No,,1,0,[],24
+172,Code style problems,Code style problems,Remove redundant variable Initializer,[],No,,1,0,[],76
+171,Performance issues,Performance issues,Replace construction of FileInputStream and FileOutputStream objects with Files NIO APIs.,[],No,,1,0,[],6
+170,Security issues,Performance issues,Shutdown execution services (in test classes) once the results are taken,[],No,,1,0,[],2
+169,Performance issues,Code style problems,Add convenience constructor for StatisticalSummaryValues,[],No,,0,0,[],26
+168,Code style problems,Code style problems,MATH-1566: Fix CheckStyle Issues,[],No,,0,0,[],100
+167,Performance issues,Code style problems,[MATH-1564] - Minor improvement,[],No,,0,0,[],143
+166,Security issues,Security issues,Update EnumeratedDistribution.java,[],Yes,00:12:44,0,0,[],2
+165,Security issues,Security issues,Update MathUtils.java,[],No,,0,0,[],4
+164,Performance issues,Performance issues,Method stage in class TrapezoidIntegrator rewrite as override. Remove not using Exception,[],No,,0,0,[],112
+163,Functional bugs,Functional bugs,[MATH-1560] Fix flaky testGetAvailableLocales,[],No,,1,0,[],5
+162,Functional bugs,Functional bugs,[MATH-1559] Fix assertion failure with epsilon,[],No,,1,0,[],2
+161,Functional bugs,Functional bugs,[MATH-1558] Fix MidPointIntegrator incremental implementation,"['This test might be redundant now that we know exactly how many evaluations we should have, as a function of iterations.']",Yes,02:05:54,1,1,[''],72
+160,Performance issues,Performance issues,enable dependabot,[],No,,1,0,[],25
+159,Security issues,Security issues,JUnit v4.13.1,[],Yes,03:45:10,1,0,[],2
+158,Security issues,Functional bugs,Code cleanup: Remove unused imports,[],Yes,02:20:56,1,0,[],822
+157,Performance issues,Code style problems,MATH-1551: Add Weighted percentile features,[],Yes,"4 days, 10:50:05",1,0,[],605
+156,Code style problems,Code style problems,Use static final int for IEEE exponent shift constant.,[],No,,1,0,[],6
+155,Code style problems,Code style problems,Standardize constants before running simplex algorithm. Fixes MATH-1549.,[],Yes,"4 days, 12:51:40",2,0,[],230
+154,Code style problems,Code style problems,Modify some loop using stream API,[],No,,2,0,[],70
+153,Code style problems,Code style problems,Add convenience method for initialization,[],No,,1,0,[],23
+152,Missing tests,Functional bugs,[MATH-1545] Follow best practice to test ordering in implementation of Comparable,[],No,,0,0,[],2
+151,Performance issues,Code style problems,Why we compare two Integers with == but not equals()?,[],No,,0,0,[],2
+150,Performance issues,Performance issues,[MATH-1544] delete a needless (IMO) null for double varargs parameter.,[],No,,0,0,[],2
+149,Functional bugs,Functional bugs,[MATH-1543] use instanceof check instead of catch ClassCastException in some function.,[],No,,0,0,[],26
+148,Code style problems,Code style problems,[MATH-1542] remove `== null` as it is covered by `instance of`,[],No,,0,0,[],2
+147,Code style problems,Code style problems,[MATH-1541] break the loop when we can.,[],No,,0,0,[],5
+146,Code style problems,Code style problems,Simplify if condition,[],No,,18,0,"['I haven\'t validated, that the strange expression ""object instanceof Foo == false"" means, what I suppose it does. But, if anyone can confirm that this is indeed identical to !(object instanceof Foo), then I\'m all in favour of approving this.', '', 'Well, according to [this page on operator precedence](https://introcs.cs.princeton.edu/java/11precedence/), everything seems to be alright. Approving.', ""Looks good to me. @bhawna94 as Gilles pointed out in the mailing list, these commits can be squashed into a single one, so that it's easier to revert or navigate through these commits should another developer needs to :+1: could you update the PR with that change, please?"", '', '']",8
+145,Code style problems,Code style problems,Replace for with forEach,[],No,,1,0,[],42
+144,Performance issues,Performance issues,[MATH-1538] refine some codes dealing with filling an array with its first and second elements.,"['`final` is useless, and not the code style for these files', '@efge\r\n> final is useless\r\n\r\nYep, if you think it that way.\r\n\r\n>and not the code style for these files\r\n\r\nThere is final for local variable for class `FieldDenseMatrix` , `TricubicInterpolator` , `UnivariatePeriodicInterpolator` , `FieldDenseMatrix` , `SobolSequenceGenerator`, `GeometryExample`, and several test classes.\r\nSo I think the `final` I used is not outside of ""the code style for these files"", thus no need to change.\r\nOr if I mis-understand something, please tell me.\r\nThanks.']",No,,4,2,"['', '']",40
+143,Performance issues,Performance issues,[MATH-1539] use System.arraycopy instead of loop for better performance.,[],No,,2,0,[],59
+142,Performance issues,Security issues,use subList().clear instead of a loop of remove(0),[],No,,3,0,[],4
+141,Code style problems,Code style problems,use addAll instead of loop.,[],No,,1,0,[],33
+140,Performance issues,Performance issues,[MATH-1537] clean-up a test,[],Yes,"1 day, 19:42:05",1,0,[],51
+139,Code style problems,Code style problems,[MATH-1537] fix_typos,[],No,,1,0,[],341
+138,Security issues,Security issues,[MATH-1537] delete unused imports,[],No,,0,0,[],25
+137,Performance issues,Performance issues,[MATH-1537] refine javadoc,[],Yes,07:38:40,1,0,[],46
+136,Performance issues,Code style problems,[MATH-1537] Refine jafvadoc and fix typos,[],No,,2,0,[],412
+135,Performance issues,Missing tests,refine travis-ci scripts.,[],Yes,06:29:16,1,0,[],4
+134,Performance issues,Code style problems,EnumeratedDistribution: Use non-indexing for loop to improve performance in case of LinkedList,[],No,,1,0,[],12
+133,Performance issues,Code style problems,MATH-1524: Remove package initialization and reuse chooseInitialCente…,[],Yes,08:17:16,1,0,[],534
+132,Functional bugs,Functional bugs,MATH-1509: Add missing documentation to class ImprovementEvaluator,[],Yes,01:23:08,1,0,[],9
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

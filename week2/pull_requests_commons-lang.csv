@@ -1,0 +1,1033 @@
+Pull Request Number,Title,Merged,Time to Merge,Comments,Review Comments,Lines of Code Changed
+1036,Typo in EnumUtils class,Yes,02:53:02,0,0,4
+1035,Механический перевод тестов на spock,No,,1,0,918
+1034,Bump actions/cache from 3.2.5 to 3.2.6,Yes,00:39:05,0,0,6
+1033,"[LANG-1694] MethodUtils.getMatchingMethod() fails with ""Found multiple candidates""",Yes,"6 days, 10:05:49",4,0,16
+1032,"[LANG-1694]'MethodUtils.getMatchingMethod' fails with ""Found multiple candidates"" when the method is abstract",No,,2,0,20
+1031,(doc) Fix typos in Javadoc,Yes,00:26:10,2,0,6
+1030,Added new example for containsAny method,No,,4,0,1
+1029,Added empty string example for appendIfMissing method,No,,1,0,1
+1028,Bump actions/cache from 3.2.4 to 3.2.5,Yes,00:06:42,1,0,6
+1027,Bump actions/setup-java from 3.9.0 to 3.10.0,Yes,00:05:47,1,0,4
+1026,Use (<p>) to split the text to different paragraphs in Javadoc comments.,No,,7,6,200
+1025,Bump junit-pioneer from 1.9.1 to 2.0.0,No,,1,0,2
+1024,Bump actions/cache from 3.2.3 to 3.2.4,Yes,00:24:56,1,0,6
+1023,Use qualifiers removing unnecessary object allocation.,No,,1,0,4
+1022,Use Objects.requireNonNull() directly.,Yes,"11 days, 19:52:18",1,0,12
+1021,Created a new function for the StringUtils class.,No,,1,0,50
+1020,Bump maven-checkstyle-plugin from 3.2.0 to 3.2.1,No,,2,0,2
+1019,Bump actions/cache from 3.2.2 to 3.2.3,Yes,01:35:36,1,0,6
+1018,Several optimizations in the method formatDurationWords,No,,1,0,67
+1017,Fixes typos in javadoc,Yes,19:04:28,2,0,20
+1016,Removes unnecessary method references,No,,2,0,4
+1015,Explicitly checks string for emptiness to prevent the exception logic overhead,No,,7,0,36
+1014,Bump actions/checkout from 3.2.0 to 3.3.0,Yes,03:32:58,1,0,8
+1013,Bump actions/upload-artifact from 3.1.1 to 3.1.2,Yes,03:32:47,1,0,2
+1012,Bump easymock from 5.0.1 to 5.1.0,Yes,00:25:49,0,0,2
+1011,Bump commons-parent from 55 to 56,Yes,00:25:07,0,0,2
+1010,Bump checkstyle from 9.3 to 10.6.0,No,,1,0,2
+1009,Add example for space in StringUtils#indexOfIgnoreCase(),Yes,"38 days, 22:38:04",1,0,1
+1008,Make java.desktop module optional,No,,0,0,108
+1007,Added new examples for rightPad method,No,,4,0,4
+1006,Added empty string example for isMixedCase method.,Yes,01:15:36,2,0,1
+1005,formatted java.lang package.,No,,1,0,4
+1004,Bump actions/cache from 3.2.1 to 3.2.2,Yes,00:06:16,1,0,6
+1003,Bump ossf/scorecard-action from 2.1.0 to 2.1.2,Yes,04:18:58,0,0,2
+1002,Bump actions/cache from 3.0.11 to 3.2.1,Yes,02:33:23,0,0,6
+1001,Fix typo,Yes,04:37:06,1,0,2
+1000,Bump commons-parent from 54 to 55,Yes,00:52:43,1,0,2
+999,Bump ossf/scorecard-action from 2.0.6 to 2.1.0,Yes,00:54:09,1,0,2
+998,Bump actions/setup-java from 3.8.0 to 3.9.0,Yes,00:54:29,1,0,4
+997,Bump actions/checkout from 3.1.0 to 3.2.0,Yes,00:54:48,1,0,8
+996,Bump actions/setup-java from 3.6.0 to 3.8.0,Yes,00:10:03,0,0,4
+995,Bump junit-pioneer from 1.9.0 to 1.9.1,Yes,00:19:50,0,0,2
+994,Bump checkstyle from 9.3 to 10.5.0,No,,1,0,2
+993,NumberUtils check if Number is null or zero,No,,1,0,112
+992,NumberUtils check if Number is null or zero,No,,2,0,51
+991,Bump junit-pioneer from 1.8.0 to 1.9.0,Yes,04:52:54,0,0,4
+990,Bump jmh.version from 1.35 to 1.36,Yes,04:51:13,0,0,4
+989,Bump spotbugs-maven-plugin from 4.7.2.1 to 4.7.3.0,Yes,18:19:28,1,0,4
+988,Bump junit-pioneer from 1.7.1 to 1.8.0,Yes,18:21:22,1,0,4
+987,Bump checkstyle from 9.3 to 10.4,No,,2,0,2
+986,Bump easymock from 5.0.0 to 5.0.1,Yes,"2 days, 3:58:02",0,0,2
+985,Bump actions/upload-artifact from 3.1.0 to 3.1.1,Yes,"2 days, 3:58:56",1,0,2
+984,Use IntStream,No,,1,1,36
+983,Simplify streams.,No,,1,1,35
+982,Remove unnecessary else conditions.,No,,1,0,3
+981,Fix simple broken javadoc.,Yes,20:25:43,1,0,5
+980,Make a non-access modifier local variables.,No,,1,0,42
+979,Use constant properties instead.,No,,0,0,8
+978,Bump ossf/scorecard-action from 1.1.2 to 2.0.6,No,,1,0,2
+977,Bump actions/setup-java from 3.5.1 to 3.6.0,Yes,12:18:08,0,0,4
+976,Use java stream in ArrayUtils.,No,,4,0,88
+975,Use java stream in TypeUtils.,No,,1,0,122
+974,Use java stream in StringUtils.,No,,0,0,192
+973,Bump spotbugs from 4.7.2 to 4.7.3,Yes,01:11:28,1,0,2
+972,Bump easymock from 4.3 to 5.0.0,Yes,01:12:47,0,0,2
+971,Bump spotbugs-maven-plugin from 4.7.2.0 to 4.7.2.1,Yes,02:20:38,1,0,2
+970,Bump actions/cache from 3.0.10 to 3.0.11,Yes,02:22:19,0,0,6
+969,Add and use PAD character constant for ' '.,No,,1,6,15
+968, Add CalendarUtils#getDayOfYear(),Yes,"4 days, 0:49:05",1,2,15
+967,"add StringUtils.substringBeforeLast(String, int)",No,,2,0,35
+966,Make a non-access modifier local variables.,Yes,01:00:18,1,0,8
+965,Remove unnecessary conditions. It's no need it after assigns tmp to duration,No,,1,2,3
+964,Bump actions/cache from 3.0.9 to 3.0.10,Yes,07:24:20,1,0,8
+963,Bump actions/checkout from 3.0.2 to 3.1.0,Yes,07:16:37,0,0,10
+962,Simplify expression (length is never < 0),Yes,"6 days, 16:09:06",1,0,2
+961,Bump commons.pmd-impl.version from 6.49.0 to 6.50.0,Yes,12:01:00,0,0,3
+960,Bump ossf/scorecard-action from 1.1.2 to 2.0.4,No,,2,0,2
+959,Bump actions/cache from 3.0.8 to 3.0.9,Yes,12:03:44,0,0,8
+958,Bump checkstyle from 9.3 to 10.3.4,No,,2,0,2
+957,Bump commons-text from 1.9 to 1.10.0,Yes,00:28:22,1,0,2
+956,Improve JavaDocs ,No,,8,6,2611
+955,Bump junit-bom from 5.9.0 to 5.9.1,Yes,00:38:20,0,0,2
+954,Bump commons-parent from 53 to 54,Yes,00:20:29,0,0,2
+953,Handle error messages with special characters.,No,,11,12,79
+952,Remove empty line,No,,2,0,2
+951,[LANG-1692] Cast FieldUtils.readField result to the recipient type,No,,10,14,88
+950,Bump ossf/scorecard-action from 1.1.2 to 2.0.3,No,,4,0,2
+949,[LANG-1691] ClassUtils.getShortCanonicalName doesn't use the canonicalName,Yes,04:42:19,0,3,18
+948,Bump maven-pmd-plugin from 3.18.0 to 3.19.0,Yes,08:36:32,1,0,4
+947,Bump spotbugs from 4.7.1 to 4.7.2,Yes,08:39:48,1,0,4
+946,Bump spotbugs-maven-plugin from 4.7.1.1 to 4.7.2.0,Yes,08:34:58,0,0,4
+945,Bump checkstyle from 9.3 to 10.3.3,No,,2,0,2
+944,Bump commons.pmd-impl.version from 6.48.0 to 6.49.0,Yes,03:37:39,0,0,2
+943,Bump maven-checkstyle-plugin from 3.1.2 to 3.2.0,Yes,04:45:52,1,0,2
+942,[LANG-1604] Deprecate RandomUtils in favor of Apache Commons RNG UniformRandomProvider,Yes,18:15:56,2,0,2
+941,Simplifiable conditional expression.,Yes,05:37:50,1,0,4
+940,Deprecate getNanosOfMiili() method with typo and create proper getNanosOfMilli(),Yes,23:01:44,1,4,36
+939,Rename method and fix typo.,No,,5,0,25
+938,Fix some Javadoc comments,Yes,17:57:11,1,2,18
+937,Extends Object clauses are redundant,Yes,01:24:33,1,0,10
+936,LANG-1604: Deprecate RandomUtils class,No,,2,3,1095
+935,LANG-1603: Deprecate Fraction class,No,,2,5,3
+934,Lang 1689 add optional to objectutils isempty with unpacking the optional,No,,1,0,66
+933,[LANG-1689] Simple Optional in ObjectUtils#isEmpty(),Yes,"10 days, 18:00:33",5,2,20
+932,Bump commons.pmd-impl.version from 6.47.0 to 6.48.0,Yes,02:08:50,0,0,2
+931,Bump checkstyle from 9.3 to 10.3.2,No,,2,0,2
+930,Fixed incorrect documentation,No,,1,2,6
+929,Fixed incorrect documentation,No,,0,0,6
+928,Bump junit-bom from 5.8.2 to 5.9.0,Yes,02:02:40,1,0,2
+927,Bump spotbugs-maven-plugin from 4.7.1.0 to 4.7.1.1,Yes,02:35:39,0,0,2
+926,Fix links in Javadoc and documentation,Yes,"26 days, 4:21:30",1,20,332
+925,simplify condition,Yes,21:43:56,0,0,2
+924,LANG-1638: Added docs regarding week year support,Yes,"42 days, 3:24:39",5,0,4
+923,(doc) Fix typos in project documentations,Yes,02:17:52,0,0,308
+922,Bump exec-maven-plugin from 3.0.0 to 3.1.0,Yes,02:43:21,1,0,2
+921,Bump actions/cache from 3.0.4 to 3.0.5,No,,3,0,2
+920,(doc) Fix typos in javadoc and comments,Yes,03:05:41,0,0,486
+919,Bump spotbugs-maven-plugin from 4.7.0.0 to 4.7.1.0,Yes,07:12:50,0,0,2
+918,"Javadoc: StringUtils.repeat("""", ""x"", 3) = ""xx"";",Yes,09:16:49,0,0,2
+917,Bump spotbugs from 4.6.0 to 4.7.1,Yes,07:21:15,1,0,4
+916,Bump checkstyle from 9.3 to 10.3.1,No,,2,0,2
+915,Bump commons.pmd-impl.version from 6.46.0 to 6.47.0,Yes,"3 days, 21:31:16",0,0,2
+914,Bump spotbugs from 4.6.0 to 4.7.1,No,,3,0,2
+913,remove some duplicate assertion in StringUtilsTest,No,,2,4,10
+912,Update ClassUtils Javadoc with some missing throws NPE,Yes,"1 day, 3:41:09",4,0,5
+911,fix StringUtils.upperCase(String str) java doc,Yes,00:19:48,1,0,2
+910,Bump maven-surefire-plugin from 3.0.0-M6 to 3.0.0-M7,Yes,07:48:29,0,0,4
+909,Bump maven-pmd-plugin from 3.16.0 to 3.17.0,Yes,07:47:19,0,0,4
+908,[LANG-1687] fix java Doc,No,,2,0,2
+907,Increase test coverage of functional interfaces,Yes,"1 day, 1:34:47",5,0,115
+906,Bump checkstyle from 9.3 to 10.3,No,,2,0,2
+905,Bump commons.pmd-impl.version from 6.45.0 to 6.46.0,Yes,02:41:00,0,0,4
+904,Add tests to increase coverage,Yes,"78 days, 16:48:47",2,8,128
+903,"Add toCharacterObject(String,String) with default value.",No,,6,6,37
+902,Bump spotbugs from 4.6.0 to 4.7.0,No,,2,0,2
+901,Fix unstable coverage of CharSequenceUtils tests noticed during merge of PRs 898 and 899,Yes,07:15:55,4,0,4
+900,Fix javadoc. Remove unused @param.,Yes,03:06:34,0,0,1
+899,Increase method test coverage of MultilineRecursiveToStringStyle,Yes,04:46:07,1,0,185
+898,Increase test coverage of ComparableUtils from 71% to 100%,Yes,04:12:46,3,0,151
+897,Revert #896 spotbugs update,Yes,11:12:36,5,0,7
+896,Bump spotbugs from 4.6.0 to 4.7.0,Yes,07:48:44,0,0,7
+895,Bump spotbugs-maven-plugin from 4.6.0.0 to 4.7.0.0,Yes,07:59:27,1,0,4
+894,ci: Add GitHub token permissions for workflows,Yes,00:28:10,0,0,3
+893,Bump checkstyle from 9.3 to 10.2,No,,3,0,2
+892,LANG-1680 Add support for standalone month formats,Yes,"3 days, 8:09:38",8,11,127
+891,[LANG-1627] New method for One-hot XOR,No,,2,0,167
+890,[LANG-1627] Implement xorOneHot and add clarifications to Javadoc for xor to explain when it returns true,No,,5,0,206
+889,Added method to convert Object to String that support null values.,No,,0,2,56
+888,Convert object to String.,No,,0,0,53
+887,Remove unnecessary code,No,,1,0,127
+886,Bump github/codeql-action from 1 to 2,Yes,"2 days, 3:07:07",0,0,6
+885,Bump commons-parent from 52 to 53,Yes,10:00:20,0,0,3
+884,Bump checkstyle from 9.3 to 10.1,No,,1,0,2
+883,Bump junit-pioneer from 1.6.2 to 1.7.0,Yes,10:05:39,1,0,4
+882,Remove unnecessary variable creations.,Yes,"17 days, 14:57:45",0,0,8
+881,"Add @SuppressWarnings(""unchecked"")",No,,0,0,3
+880,Bump maven-surefire-plugin from 3.0.0-M5 to 3.0.0-M6,Yes,06:19:56,0,0,3
+879,Bump actions/setup-java from 2 to 3,Yes,06:37:31,0,0,4
+878,Improvement conditions.,No,,2,0,6
+877,Simplify and remove unnecessary check.,No,,3,8,78
+876,Make final mappingFunction variable.,Yes,"25 days, 7:25:51",0,0,2
+875,simplify operations and avoid extra calculations,No,,0,2,2
+874,Add early null check MethodUtils.,No,,0,4,25
+873,Bump commons.pmd-impl.version from 6.43.0 to 6.44.0,Yes,"1 day, 21:39:58",0,0,2
+872,Bump jmh.version from 1.34 to 1.35,Yes,"1 day, 22:02:58",0,0,2
+871,Fixing and adding DateUtils exception Javadocs,Yes,03:41:54,0,0,163
+870,Updating javadoc for NullPointerException when Validate.notNull() is called,Yes,02:26:35,1,0,29
+869,Add missing exception javadoc/tests for some null arguments,Yes,"322 days, 0:31:37",3,3,48
+868,Bump spotbugs-maven-plugin from 4.5.3.0 to 4.6.0.0,Yes,06:44:51,0,0,4
+867,Bump actions/cache from 2.1.7 to 3,Yes,00:46:57,0,0,2
+866,Refactoring the code,No,,1,11,630
+865,Refactoring the files.,No,,1,0,630
+864,Bump spotbugs from 4.2.3 to 4.6.0,No,,1,0,2
+863,[LANG-1462] Use TimeZone from Calendar in DateFormatUtils.,No,,6,0,19
+862,LANG-1668 Update getMatchingMethod documentation.,Yes,02:31:37,2,0,1
+861,Bump commons.pmd-impl.version from 6.42.0 to 6.43.0,Yes,00:22:26,0,0,2
+860,Bump checkstyle from 9.3 to 10.0,No,,2,0,2
+859,Bump actions/checkout from 2 to 3,Yes,00:15:30,0,0,4
+858,Bump maven-pmd-plugin from 3.15.0 to 3.16.0,Yes,02:06:31,0,0,2
+857,Add method defaultIfEmpty with lazy default string computation,No,,7,10,80
+856,Bump taglist-maven-plugin from 2.4 to 3.0.0,Yes,00:05:15,0,0,2
+855,Add countBlanks() function,No,,2,0,44
+854,Bump checkstyle from 9.2.1 to 9.3,Yes,00:23:53,0,0,2
+853,Bump commons.pmd-impl.version from 6.41.0 to 6.42.0,Yes,00:15:06,0,0,2
+852,startsWithAnyIgnoreCase method,No,,1,0,51
+851,LANG-1671: AtomicSafeInitializerTest and LazyInitializerTest modifications using Mockito,No,,3,0,98
+850,improve DateUtils by adding calenda.month in comparison in considerin…,No,,4,0,1
+849,[LANG-1662] Let ReflectionToStringBuilder only reflect given field names,No,,16,4,324
+848,LANG-1682 Adding StringUtils.startsWithAnyIgnoreCase method,No,,4,0,65
+847,Bump spotbugs from 4.2.3 to 4.5.3,No,,1,0,2
+846,Bump spotbugs-maven-plugin from 4.5.0.0 to 4.5.3.0,No,,1,0,2
+845,Fix a flaky test in org.apache.commons.lang3.time.StopWatchTest.testStopWatchSuspend,No,,2,0,3
+844,"[LANG-1679] Improve performance of StringUtils.unwrap(String, String)",Yes,"89 days, 6:45:02",0,0,8
+843,Bump checkstyle from 9.2 to 9.2.1,Yes,02:14:07,0,0,2
+842,Bump jmh.version from 1.33 to 1.34,Yes,00:15:16,0,0,2
+841,Bump spotbugs-maven-plugin from 4.5.0.0 to 4.5.2.0,No,,1,0,2
+840,Bump spotbugs from 4.2.3 to 4.5.2,No,,1,0,2
+839,Bump spotbugs from 4.2.3 to 4.5.1,No,,1,0,2
+838,LANG-1677 : Add ReflectionDiffBuilder.setExcludeFieldNames(...) and DiffExclude a…,No,,10,16,130
+837,Bump pmd-java8 from 6.40.0 to 6.41.0,Yes,01:29:22,0,0,2
+836,Bump junit-bom from 5.8.1 to 5.8.2,Yes,00:06:03,0,0,2
+835,Bump biz.aQute.bndlib from 6.0.0 to 6.1.0,Yes,05:36:17,1,0,4
+834,Bump spotbugs-maven-plugin from 4.4.2.2 to 4.5.0.0,Yes,11:50:49,1,0,4
+833,Bump actions/cache from 2.1.6 to 2.1.7,Yes,09:42:29,1,0,4
+832,Bump junit-pioneer from 1.4.2 to 1.5.0,Yes,00:35:46,1,0,2
+831,feat: list2tree method add,No,,4,0,298
+830,feat: list2tree method add,No,,0,0,293
+829,feat: list2tree method add,No,,0,0,296
+828,feat: list2tree method add,No,,0,0,291
+827,feat: list2tree method add,No,,0,0,288
+826,Bump spotbugs from 4.2.3 to 4.5.0,No,,3,0,2
+825,Bump actions/checkout from 2.3.5 to 2.4.0,Yes,"8 days, 21:57:34",1,0,2
+824,Bump checkstyle from 9.0.1 to 9.1,Yes,06:26:56,1,0,4
+823,LANG-1664 adjust doc to show argument is a primitive character,No,,2,0,6
+822,Bump spotbugs-maven-plugin from 4.4.1 to 4.4.2.2,Yes,"21 days, 21:47:48",0,0,2
+821,Betters names variables and  Fix typos,No,,2,12,220
+820,Bump spotbugs-maven-plugin from 4.4.1 to 4.4.2.1,No,,2,0,2
+819,Bump actions/checkout from 2.3.4 to 2.3.5,Yes,"4 days, 3:36:44",1,0,2
+818,Bump spotbugs from 4.2.3 to 4.4.2,No,,2,0,2
+817,fix NumberFormatException in method org.apache.commons.lang3.math.Fra…,No,,4,0,44
+816,Use final.,Yes,"34 days, 19:48:58",1,0,112
+815,LANG-1676 add another case in RangeTest:testIsOverlappedBy,No,,2,2,1
+814,Bump biz.aQute.bndlib from 5.3.0 to 6.0.0,Yes,"5 days, 3:24:44",1,0,2
+813,Add final var and Remove redundant String.,Yes,"8 days, 0:26:34",1,0,4
+812,LANG-1675 - Improve performance of StringUtils.join for primitives,Yes,"176 days, 5:57:20",19,1,80
+811,Bump checkstyle from 8.45.1 to 9.0.1,Yes,"1 day, 4:10:31",1,0,2
+810,LANG-1674: Make Range constructors more generic,No,,7,0,32
+809,"Fix comment typos, make comments consistent.",No,,4,2,4
+808,Bump spotbugs-maven-plugin from 4.3.0 to 4.4.1,Yes,"15 days, 3:57:11",1,0,2
+807,Bump junit-bom from 5.8.0 to 5.8.1,Yes,"15 days, 3:59:59",1,0,2
+806,"Add methods to enhance joins: joinNotEmptyWith, joinNotBlankWith",No,,0,2,122
+805,Bump junit-bom from 5.7.2 to 5.8.0,Yes,"7 days, 22:56:10",1,0,2
+804,floor and ceiling for Sorted Arrays,No,,10,0,1206
+803,Bump spotbugs from 4.2.3 to 4.4.1,No,,3,0,2
+802,Bump maven-pmd-plugin from 3.14.0 to 3.15.0,Yes,"12 days, 22:34:44",1,0,2
+801,refactor AtomicSafeInitializerTest to improve test design,No,,2,0,46
+800,Remove redundant initializers,Yes,"34 days, 4:59:43",1,0,34
+799,Bump checkstyle from 8.45.1 to 9.0,No,,3,0,2
+798,Simplify pointless boolean expressions with equivalent but more simple.,No,,1,0,48
+797,Avoid multiple equivalent occurrences of the same expression.,Yes,"1 day, 7:50:24",1,2,5
+796,"Adopt is no more, long live Zulu!",No,,3,0,2
+795,LANG-1670 Fix typos in JavaDoc,Yes,"1 day, 0:37:28",2,0,10
+794,Bump jmh.version from 1.27 to 1.33,Yes,"1 day, 22:30:11",0,0,2
+793,Simplify bitwise operations with equivalent and simple.,No,,3,2,2
+792,Simplify assertions with equivalent but more simple.,Yes,"10 days, 14:02:34",3,1,233
+791,LANG-1669: OpenJDK 16 Day Period Parsing,Yes,08:28:44,1,0,5
+790,Bump spotbugs from 4.2.3 to 4.4.0,No,,2,0,2
+789,Improve Travis CI build Performance,No,,2,0,1
+788,LANG-1667: Allow tests to access java.util classes such as ArrayList in Java 16,Yes,10:51:19,1,0,3
+787,Bump checkstyle from 8.43 to 8.45.1,Yes,"16 days, 22:31:35",2,0,2
+786,Lang-1657: Diff Result Type Constraint,No,,3,0,38
+785,LANG-1663: Update documentation to list correct exception for null array parameters,Yes,"16 days, 17:36:51",4,0,27
+784,[LANG-1593] Common behavior for StringUtils join APIs when called with char or String delimiter,No,,8,17,530
+783,Bump checkstyle from 8.43 to 8.45,No,,2,0,2
+782,[LANG-1666] Implemented ObjectUtils.equalsAny,No,,6,1,41
+781,Fixing reversed Javadoc descriptions in StopWatch,Yes,"32 days, 17:27:30",1,0,8
+780,LANG-1665 - Modify Tuple equals to take BigDecimal comparison,No,,6,1,68
+779,"LANG-1664: Fix javadoc (separator is a character, not a string)",No,,1,3,6
+778,Bump spotbugs-maven-plugin from 4.2.3 to 4.3.0,No,,3,0,2
+777,"LANG-1664 - Javadoc for StringUtils.substringBefore(String str, int separator) doesn't mention that the separator is an Int",No,,3,0,18
+776,Javadoc Validate.notNull corrections,No,,1,0,29
+775,Bump spotbugs from 4.2.3 to 4.3.0,No,,1,0,2
+774,Bump checkstyle from 8.43 to 8.44,No,,2,0,2
+773,Object Casting,No,,2,2,27
+772,Object Casting,No,,0,0,31
+771,"Simplify conditions in ""binaryBeMsb0ToHexDigit"" and avoid extra checks.",No,,1,0,28
+770,Removed use of restricted identifier,No,,6,0,12
+769,Minor changes,Yes,"328 days, 1:03:58",1,2,9
+768,Bump checkstyle from 8.42 to 8.43,Yes,"22 days, 6:57:54",1,0,2
+767,Bump junit-pioneer from 1.4.1 to 1.4.2,Yes,"22 days, 6:58:49",1,0,2
+766,LANG-1172: Support dash as a delimiter in locales,Yes,"280 days, 0:54:07",11,7,19
+765,Check if the given class represents an array of primitives,No,,5,0,36
+764,Bump actions/cache from 2.1.5 to 2.1.6,Yes,"25 days, 7:31:22",1,0,2
+763,Bump jmh.version from 1.27 to 1.32,No,,2,0,2
+762,LANG-1661 - Add methods to ClassUtils to get the class type names in a null-safe manner,No,,5,0,112
+761,Bump junit-bom from 5.7.1 to 5.7.2,Yes,"5 days, 15:28:05",1,0,2
+760,ObjectUtils: Add nullSafeEquals method for Object compare. ,No,,5,0,205
+759,ObjectUtils: Add nullSafeEquals method for Object compare.,No,,0,0,205
+758,Use own validator ClassUtils.getSimpleName to get String input,No,,3,2,14
+757,Use own validator ClassUtils.getName to get String input,No,,5,8,44
+756,LANG-1660 - Gets a hex String form of an object's identity hash code,No,,1,0,42
+755,Fix ObjectUtils Javadocs,Yes,"146 days, 10:44:43",1,0,16
+754,LANG-1659 - Add null-safe ObjectUtils.isArray(),Yes,"156 days, 21:35:16",2,10,79
+753,Bump jmh.version from 1.27 to 1.31,No,,2,0,2
+752,Upgrade checkstyle 8.41.1 -> 8.42,Yes,"2 days, 21:39:38",2,0,4
+751,create API for searching for numbers within string - solving LANG-165…,No,,0,8,165
+750,Bump jmh.version from 1.27 to 1.30,No,,2,0,2
+749,Bump junit-pioneer from 1.3.8 to 1.4.1,Yes,"7 days, 7:43:40",1,0,2
+748,Bump junit-pioneer from 1.3.8 to 1.4.0,No,,2,0,2
+747,Bump checkstyle from 8.41.1 to 8.42,No,,2,0,2
+746,Bump easymock from 4.2 to 4.3,Yes,06:42:54,2,0,2
+745,Lang 1656 first non blank returned,No,,1,0,111
+744,Bump spotbugs from 4.2.2 to 4.2.3,Yes,"2 days, 17:10:40",0,0,2
+743,Lang 1656: first non blank returned,No,,4,2,111
+742,Bump actions/cache from v2.1.4 to v2.1.5,Yes,"5 days, 17:06:24",1,0,2
+741,[LANG-1655] Add API canonicalCompositionAfterStripAccents (an issue where characters were separated in the NFD…),No,,1,0,29
+740,Bump actions/setup-java from v1.4.3 to v2,No,,2,0,2
+739,Bump checkstyle from 8.41 to 8.41.1,Yes,"20 days, 13:03:22",1,0,2
+738,Redundant Collection operation. Use Collections.emptyIterator(),Yes,"47 days, 6:15:07",1,0,2
+737,Bump jmh.version from 1.27 to 1.29,No,,3,0,2
+736,LANG-1652 - Check whether the given class has a public constructor,No,,4,0,29
+735,Bump spotbugs-maven-plugin from 4.2.0 to 4.2.2,Yes,"2 days, 17:33:30",1,0,2
+734,Use Set instead of List for checking the contains() method,Yes,"242 days, 8:50:17",5,0,4
+733,Fixed NPE getting Stack Trace if Throwable is null,Yes,"379 days, 14:48:48",1,9,13
+732,"LANG-1651 - Check if a given field is a ""public static final"" constant.",No,,1,0,18
+731,LANG-1649 - Check if method is Overridable,No,,9,22,110
+730,EnumUtils: Add more-generic getEnumMap() method.,No,,3,3,68
+729,LANG-1647 - Check if an throwable is a checked exception,No,,1,10,44
+728,LANG-1645: NumberUtils to recognise hex integers prefixed with +,No,,1,0,38
+727,LANG-1644 - Check if number is hexadecimal,No,,9,4,87
+726,Bump spotbugs from 4.2.1 to 4.2.2,Yes,"1 day, 11:07:12",1,0,2
+725,Add toLocalDate to CalendarUtils,No,,2,0,22
+724,Bump jmh.version from 1.27 to 1.28,No,,2,0,2
+723,Ll,No,,1,3,422
+722,Bump checkstyle from 8.40 to 8.41,Yes,"3 days, 9:50:21",1,0,2
+721,Bump junit-pioneer from 1.3.0 to 1.3.8,Yes,"3 days, 9:51:27",1,0,2
+720,Reuse ObjectUtils.anyNull,No,,2,0,102
+719,SimpleStopWatch is alternative for overcomplicated and buggy StopWatch,No,,1,0,164
+718,Use own validator ObjectUtils.anyNull to check null String input,Yes,"1 day, 0:29:20",2,0,6
+717,Feature/not null or empty aux,No,,3,2,94
+716,Reuse the boolean array validations.,No,,3,4,67
+715,Bump biz.aQute.bndlib from 5.2.0 to 5.3.0,Yes,09:16:48,1,0,2
+714,Add and use true & false String constants,Yes,14:52:21,1,0,56
+713,"Let mid(null), left(null) and right(null) return empty",No,,3,0,45
+712,Fix broken Javadoc links to commons-text,Yes,"3 days, 11:40:10",2,0,6
+711,New Junit test cases for org.apache.commons.lang3.builder,No,,1,1,95
+710,Bump actions/cache from v2 to v2.1.4,Yes,"2 days, 16:10:24",1,0,2
+709,Implement StopWatch lap,No,,4,2,65
+708,Bump spotbugs from 4.2.0 to 4.2.1,Yes,"5 days, 16:37:41",1,0,2
+707,Bump junit-bom from 5.7.0 to 5.7.1,Yes,"5 days, 16:35:02",1,0,2
+706,Bump checkstyle from 8.39 to 8.40,Yes,"9 days, 15:34:59",1,0,2
+705,Bump maven-checkstyle-plugin from 3.1.1 to 3.1.2,Yes,"2 days, 21:02:50",1,0,2
+704,Added new percentage check circuit breaker,No,,2,0,415
+703,LANG-1641: GmtTimeZone now implements #equals(Object) using it's time…,No,,3,5,77
+702,Bump junit-pioneer from 1.1.0 to 1.3.0,Yes,10:57:40,1,0,2
+701,Minor Improvements,Yes,"22 days, 5:28:04",1,0,11
+700,Minor Improvement: Add final variable.try to make the code read-only,Yes,"22 days, 5:41:27",1,0,46
+699,Minor Improvement: Remove redundant initializer,Yes,"22 days, 5:46:55",1,0,32
+698,Minor Improvement:,No,,2,0,167
+697,Bump junit-pioneer from 1.1.0 to 1.2.0,No,,2,0,2
+696,LANG-1639 Add getEnumByPredicate,No,,1,3,67
+695,Remove unnecessary length check,No,,0,0,2
+694,"[LANG-1231] - StringUtils#indexOfAny(final CharSequence cs, int beginIndex, final String searchChars)",No,,1,0,43
+693,[LANG-1614] - Split fixed-length elements,No,,2,0,72
+692,Bump spotbugs-maven-plugin from 4.1.4 to 4.2.0,Yes,"2 days, 8:11:41",1,0,2
+691,DiffBuilder.java: remove unnecessary boxing for primitives,No,,3,0,32
+690,Processor.java: check enum euqality with == instead of .equals() method,Yes,12:46:44,1,0,10
+689,Bump checkstyle from 8.38 to 8.39,Yes,08:41:01,1,0,2
+688,[LANG-1637] Fix 2 digit week year formatting,Yes,"6 days, 3:39:23",6,10,17
+687,Minor improvements,No,,1,0,147
+686,[LANG-1636] Add missing boolean[] join method,Yes,"8 days, 7:28:53",2,0,97
+685,[LANG-1635] - Count True function improvement,No,,4,0,39
+684,[LANG-1634] Add ObjectUtils #applyIfNonNull and #applyFirstNonNull,No,,6,11,133
+683,[LANG-1632] -Implementation of indexOf,No,,3,0,35
+682,[LANG-1631] Add short circuits in CharSequenceUtils if a character is not defined,Yes,"5 days, 7:30:09",1,10,11
+681,[LANG-1630] - NPE lowerCase and upperCase when locale is null,No,,0,0,16
+680,[LANG-1544] MethodUtils.invokeMethod NullPointerException in case of null in args list,Yes,22:43:59,2,8,145
+679,Correct markup in Javadoc for unbalanced braces,Yes,23:20:17,1,0,4
+678,[LANG-1629] Delete white space,Yes,02:58:09,1,0,4
+677,LANG-1628: Javadoc correction for RandomStringUtils.random(),No,,2,2,12
+676,LANG-1409 StringUtils fix for null Locale,No,,1,0,17
+675,"[LANG-1444] NumberUtils.createNumber(), BigDecimal for decimal fractions tending to zero",No,,7,0,26
+674,Bump jmh.version from 1.21 to 1.27,No,,3,0,2
+673,[LANG-1626] Correction in Javadoc of some methods.,Yes,"1 day, 16:06:22",2,0,96
+672,Correction in Javadoc of some methods.,No,,0,0,9728
+671,Bump spotbugs from 4.1.4 to 4.2.0,Yes,"3 days, 13:21:19",1,0,2
+670,[LANG-1622] Javadoc of BooleanUtils incorrectly refers to another method,Yes,"1 day, 3:01:43",1,0,6
+669,Adding method to convert and format date,No,,3,0,20
+668,[LANG-1622] Javadoc of some methods incorrectly refers to another method,Yes,07:36:47,1,0,12
+667,[LANG-1622] Corrected reference to right methods.,Yes,"2 days, 8:25:08",0,1,18
+666,[LANG-1621] - Add JAVA_VM_COMPRESSED_MODE,No,,4,0,29
+665,Bump checkstyle from 8.37 to 8.38,Yes,"5 days, 9:34:15",1,0,2
+664,[LANG-1620] - refine StringUtils.lastIndexOfIgnoreCase,Yes,"6 days, 8:32:10",4,0,10
+663,[LANG-1619] Refine StringUtils.abbreviate,Yes,"6 days, 9:25:07",1,0,15
+662,Bump junit-pioneer from 1.0.0 to 1.1.0,Yes,"9 days, 10:17:11",1,0,2
+661,[LANG-1618] - TypeUtils. containsTypeVariables does not support GenericArrayType,Yes,09:03:28,1,0,48
+660,Bump maven-pmd-plugin from 3.13.0 to 3.14.0,Yes,"11 days, 10:21:59",1,0,2
+659,LANG-1617 - Improve/clean math package,No,,1,2,12
+658,[LANG-1616] - Add lastIndexOfAnyChar,No,,2,0,120
+657,[LANG-1524] : Added cycle detection check in toString for classes,No,,8,2,40
+656,[LANG-1524] : Added cycle detection check in toString for classes,No,,0,0,42
+655,[LANG-1524] - Added cycle detection check in toString for classes,No,,0,0,43
+654,[LANG-1533] - RandomStringUtils.random() should not include \u0000 or control characters,No,,2,1,1
+653,LANG-1345 - Add methods to enhance non-empty strings,No,,1,0,68
+652,[LANG-1345] Add methods to enhance non-empty strings,No,,0,0,69
+651,[LANG-1615] - ArrayUtils contains && indexOf fails to handle Float.NaN,Yes,14:15:30,2,2,28
+650,LANG-1359 - add getStopTime to StopWatch,No,,1,1,32
+649,[LANG-1231] - StringUtils#indexOfAny() methods with start position argu…,No,,1,8,6407
+648,[LANG-1326] - StringUtils#isAllEmpty and #isAllBlank should return fals…,No,,4,0,23
+647,[LANG-1541] - ArrayUtils.contains() fails to handle Double.NaN,No,,3,3,13
+646,[LANG-1345] - Add methods to enhance non-empty strings,No,,2,5,69
+645,[LANG-1614] - Split fixed-length elements,No,,1,2,69
+644,[LANG-1231] - StringUtils#indexOfAny() methods with start position argu…,No,,1,6,49
+643,[LANG-1420] - TypeUtils.isAssignable returns wrong result for GenericAr…,No,,2,1,23
+642,[LANG-1613] - BigDecimal is created when you pass it the min and max values,No,,2,0,5
+641,[LANG-1609] - Case-insensitive variants for startsWithAny and endsWithAny,No,,7,0,105
+640,[LANG-1612] testGetAllFields and testGetFieldsWithAnnotation sometimes fail,No,,2,0,15
+639,Bump actions/checkout from v2.3.3 to v2.3.4,Yes,"2 days, 8:47:10",1,0,2
+638,Fix Javadoc for SystemUtils.isJavaVersionAtMost(),Yes,"15 days, 8:25:25",2,0,2
+637,Bump checkstyle from 8.36.2 to 8.37,Yes,"4 days, 8:16:46",1,0,2
+636,LANG-1610: Fix StringUtils.unwrap throws StringIndexOutOfBoundsException,Yes,"19 days, 23:41:03",2,0,3
+635,[LANG-1593] - Common behaviour for StringUtils join APIs when called with char or String delimiter,No,,5,2,485
+634,NumberUtilsTest - incorrect types in min/max tests,Yes,00:25:57,1,2,54
+633,Close/flush the `OutputStream` before calling `toByteArray()` on underlying `ByteArrayOutputStream`,No,,2,0,20
+632,Bump spotbugs-maven-plugin from 4.1.3 to 4.1.4,Yes,"4 days, 8:58:28",2,0,2
+631,More test coverage for CharSequenceUtils.,Yes,"7 days, 23:31:46",1,0,24
+630,[LANG-1609] Case-insensitive variants for startsWithAny and endsWithAny.,No,,2,1,95
+629,[LANG-1608] Include junit-bom for dependency version alignment.,Yes,00:30:56,2,0,13
+628,Bump biz.aQute.bndlib from 5.1.2 to 5.2.0,Yes,"4 days, 8:16:05",1,0,2
+627,Bump spotbugs from 4.1.3 to 4.1.4,Yes,"4 days, 8:17:23",1,0,2
+626,Bump jmh.version from 1.21 to 1.26,No,,2,0,2
+625,Bump junit-pioneer from 0.9.2 to 1.0.0,Yes,"13 days, 8:27:14",1,0,2
+624,Bump junit-pioneer from 0.9.0 to 0.9.2,Yes,09:17:21,2,0,2
+623,Bump spotbugs-maven-plugin from 4.0.4 to 4.1.3,Yes,"1 day, 8:36:28",2,0,2
+622,Bump actions/setup-java from v1.4.2 to v1.4.3,Yes,08:04:02,1,0,2
+621,Bump checkstyle from 8.36 to 8.36.2,Yes,"3 days, 7:35:31",1,0,2
+620,Bump spotbugs from 4.1.2 to 4.1.3,Yes,"6 days, 8:23:45",1,0,2
+619,Bump actions/checkout from v2.3.2 to v2.3.3,Yes,"7 days, 8:20:49",1,0,2
+618,Bump junit-jupiter from 5.6.2 to 5.7.0,Yes,"17 days, 8:25:27",1,0,2
+617,Bump checkstyle from 8.36 to 8.36.1,No,,2,0,2
+616,Bump jmh.version from 1.21 to 1.25.2,No,,2,0,2
+615,[LANG-1606] StringUtils.countMatches returns incorrect value while handling intersecting substrings,No,,2,0,8
+614,Bump checkstyle from 8.35 to 8.36,Yes,"8 days, 9:53:36",1,0,2
+613,Bump jmh.version from 1.21 to 1.25.1,No,,2,0,2
+612,Bump actions/setup-java from v1.4.0 to v1.4.2,Yes,"4 days, 9:36:44",1,0,2
+611,[LANG-1601] Refine performance of fraction.pow,No,,4,0,156
+610,[LANG-1600] Restore handling of collections for non-JSON ToStringStyle,Yes,"6 days, 2:47:40",1,0,319
+609,Bump spotbugs from 4.1.1 to 4.1.2,Yes,"11 days, 9:43:48",0,0,2
+608,Takari maven wrapper,No,,2,0,646
+607,[LANG-1596] ArrayUtils.toPrimitive(Object) does not support boolean and other types,Yes,11:08:30,1,0,25
+606,LANG-1598 Use JSR-305 for Null-Analysis,No,,1,0,278
+605,Bump jmh.version from 1.21 to 1.25,No,,2,0,2
+604,Bump actions/setup-java from v1.4.0 to v1.4.1,No,,2,0,2
+603,[LANG-1595] Add ArrayUtils methods that accept a Predicate.,No,,2,1,257
+602,Made String Reverse Method Faster,No,,7,0,13
+601,Bump actions/checkout from v2.3.1 to v2.3.2,Yes,10:10:20,1,0,2
+600,Bump junit-pioneer from 0.8.0 to 0.9.0,Yes,"4 days, 9:29:01",1,0,2
+599,Bump jmh.version from 1.21 to 1.24,No,,2,0,2
+598,Bump commons-parent from 51 to 52,Yes,"1 day, 8:21:41",1,0,2
+597,Bump junit-pioneer from 0.7.0 to 0.8.0,Yes,06:49:48,1,0,2
+596,Bump spotbugs from 4.0.6 to 4.1.1,Yes,07:39:17,1,0,2
+595,Add method to remove all numbers from a String ,No,,6,4,43
+594,Bump checkstyle from 8.34 to 8.35,Yes,"4 days, 7:17:06",1,0,2
+593,Bump spotbugs-maven-plugin from 4.0.0 to 4.0.4,Yes,23:17:30,3,0,2
+592,Bump biz.aQute.bndlib from 5.1.1 to 5.1.2,Yes,23:57:43,2,0,2
+591,Bump jmh.version from 1.21 to 1.23,No,,1,0,2
+590,Bump exec-maven-plugin from 1.6.0 to 3.0.0,Yes,"620 days, 0:14:59",3,0,2
+589,Bump junit-pioneer from 0.6.0 to 0.7.0,Yes,"1 day, 1:04:44",3,0,2
+588,Bump actions/checkout from v1 to v2.3.1,Yes,"1 day, 0:50:33",1,0,2
+587,Enable Dependabot,Yes,00:06:29,0,0,10
+586,"[LANG-1592] Correct implementation of RandomUtils.nextLong(long, long)",Yes,"2 days, 0:23:42",1,0,50
+585,Remove redudant argument from substring call,Yes,03:56:30,6,0,21
+584,Removing uncessary unboxing at several places,No,,2,0,48
+583,[LANG-1544] Fixes null pointer exception in distance method in MethodUtils,No,,5,3,4
+582,Remove redundant parameter: str.length(),No,,6,0,2
+581,ContextedException Javadoc add missing semicolon,Yes,"47 days, 18:59:24",1,0,4
+580,Add StringUtils.startsWithIgnoreCase,No,,3,0,26
+579,Speed up Travis build,No,,4,0,11
+578,Improve reproducibility of generated JARs,No,,20,3,5
+577,[LANG-1588] performance refine for StringUtils.center,No,,5,6,162
+576,[LANG-1587] refine StringUtils.strip,No,,3,0,308
+575,[LANG-1586] refine StringUtils.wrap,No,,3,0,308
+574,[LANG-1585] refine performance of StringUtils.normalizeSpace,No,,4,0,209
+573,[LANG-1584] Refine StringUtils.isNumericSpace,Yes,"159 days, 8:55:14",2,0,9
+572,[LANG-1583] refine StringUtils.isMixedCase ,No,,4,0,219
+571,[LANG-1582] refine StringUtils.indexOfDifference ,No,,3,0,18
+570,[LANG-1581] refine StringUtils.getFuzzyDistance,No,,2,0,12
+569,[LANG-1580] Refine StringUtils.deleteWhitespace,Yes,"159 days, 10:57:33",2,0,3
+568,[LANG-1579] refine StringUtils.convertRemainingAccentCharacters,No,,2,0,6
+567,[LANG-1578] refine StringUtils.compare,No,,3,0,212
+566,[LANG-1577] refine StringUtils.chop,No,,3,0,166
+565,[LANG-1576] refine StringUtils.chomp,No,,18,25,209
+564,add passing varargs Supplier to ObjectUtils.getIfNull instead of Supplier single param,No,,5,0,54
+563,[LANG-1575] refine StringUtils.capitalize,No,,3,0,211
+562,[LANG-1574] Refine CharSequencesUtils.toCharArray,No,,14,0,505
+561,[LANG-1543] Implemented feature of writing Maps into JSON,No,,2,0,116
+560,[LANG-1572] green implementation CharSequenceUtils.indexOf,No,,9,9,299
+559,Stamped lock visitor,Yes,"12 days, 22:22:09",3,0,1175
+558,refine test output for FastDateParserTest,Yes,"6 days, 17:08:17",4,0,45
+557,fix checkstyles.,No,,1,0,59
+556,[LANG-1567] Fix Javadocs for EqualsBuilder#setTestRecursive(),Yes,"7 days, 3:23:21",1,0,8
+555,Add binary compatibility check to Maven default goal,Yes,10:33:38,2,0,6
+554,fix checkstyle.,Yes,00:25:38,2,0,2
+553,[LANG-1570] JavaVersion enum constants for Java 14 and 15.,Yes,02:47:18,1,0,24
+552,(doc): Use ArrayUtils::isArrayIndexValid method in ArrayUtils::get.,Yes,01:58:51,1,0,8
+551,[LANG-1550] Optimize ArrayUtils::isArrayIndexValid method.,Yes,"11 days, 18:41:46",1,7,13
+550,[LANG-1565] Change removeLastFieldSeparator to use endsWith,Yes,"13 days, 5:18:47",4,0,15
+549,[LANG-1564] Use Collections.singletonList insteadof Arrays.asList when there be only one element.,Yes,"12 days, 6:55:03",1,0,10
+548,[LANG-1563] use StandardCharsets.UTF_8,Yes,"12 days, 6:50:49",1,0,11
+547,[LANG-1562] Use Math.max and min,Yes,"12 days, 6:56:05",1,0,28
+546,[LANG-1561] use List.sort instead of Collection.sort,Yes,"12 days, 6:53:06",1,0,10
+545,[LANG-1560] Refine Javadoc,Yes,"12 days, 7:16:17",1,0,9
+544,[LANG-1559] Convert Sting to StringBuilder in some test code.,Yes,"12 days, 7:34:04",1,0,24
+543,[LANG-1558] Simplify if as some conditions are covered by others,Yes,"12 days, 7:35:23",1,0,4
+542,"[LANG-1557] Change a Pattern to a static final field, for not letting it compile each time the function invoked.",Yes,"13 days, 6:07:51",1,2,8
+541,[LANG-1556] Use Java 8 lambdas and Map operations.,Yes,"12 days, 14:56:14",4,0,32
+540,"[LANG-1555] Ignored exception `ignored`, should not be called so",Yes,"12 days, 7:44:18",1,0,4
+539,[LANG-1554] Fix typos,Yes,"12 days, 7:43:05",1,0,44
+538,asList,No,,0,0,1672
+537,[LANG-1553] Change array style from `int a[]` to `int[] a`,Yes,"12 days, 7:51:14",1,0,104
+536,[LANG-1552] Change from addAll to constructors for some List,Yes,"12 days, 7:56:11",1,0,3
+535,[LANG-1549] implement TODO in CharSequenceUtils.lastIndexOf : remake it.,No,,3,0,187
+534,[LANG-1548] split regionMatches for better performance,No,,8,2,572
+533,[LANG-1547] fix code smells; fix typos,No,,8,0,322
+532,reformat Locks and LocksTest for passing Checkstyle,No,,8,0,189
+531,refine travis-ci scripts,Yes,"44 days, 8:55:24",1,0,6
+530,LANG-1542: ToStringBuilder.reflectionToString - Wrong JSON format for List of enums,No,,4,7,148
+529,[LANG-1545] CharSequenceUtils.regionMatches is wrong dealing with Georgian.,Yes,"26 days, 0:38:20",9,3,34
+528,Combine two if conditions in ClassUtils.isAssignable().,No,,2,0,13
+527,Create prueba.txt,No,,1,0,1
+526,Update Jenkinsfile,No,,1,0,2
+525,Correct Javadocs of methods that use Validate.notNull() and replace some uses of Validate.isTrue() with Validate.notNull().,Yes,"79 days, 23:38:34",3,0,94
+524,[LANG-1540] Add startsAndEndsWith() methods to StringUtils.,No,,1,0,254
+523,Rewrite the finding of matching Locales in LocaleUtils using the Streams API.,No,,0,5,31
+522,[LANG-1539] Add allNull() and anyNull() methods to ObjectUtils.,Yes,"81 days, 12:46:14",5,4,85
+521,Simplify some if statements in StringUtils.,Yes,20:12:24,1,3,20
+520,Implement Utils classes in Kotlin.,No,,1,4,1723
+519,Alter assertions in CharUtilsTest to get the class of CharUtils instead of BooleanUtils.,Yes,05:56:34,2,0,4
+518,(Javadoc) Fix return tag for throwableOf*() methods,Yes,"1 day, 8:44:51",1,5,8
+517,Simplify null checks in Pair.hashCode() using Objects.hashCode().,Yes,"2 days, 14:41:16",1,0,3
+516,Simplify null checks in Triple.hashCode() using Objects.hashCode().,Yes,"2 days, 21:16:25",2,0,4
+515,Remove unnecessary unboxing in BooleanUtils.,No,,6,0,16
+514,[LANG-1537]: Simplify a null check in the private replaceEach() method of StringUtils.,Yes,"3 days, 5:44:22",2,2,3
+513,Fix formatting of isAnyBlank() and isAnyEmpty().,Yes,"214 days, 5:40:07",1,0,32
+512,[LANG-1534] Replace some usages of the ternary operator with calls to Math.max() and Math.min(),Yes,"3 days, 8:26:47",2,0,7
+511,Fix some spelling and grammar issues in the StringUtils Javadoc.,Yes,03:45:43,2,0,18
+510,[LANG-1535] Add containsAnyIgnoreCase() method to StringUtils.,No,,2,2,57
+509,Update DurationFormatUtils.java,No,,2,0,6
+508,LANG-1481 Add StringUtils.split() methods with String[] input.,No,,3,0,92
+507,Fix Javdoc for StringUtils.appendIfMissingIgnoreCase(),Yes,04:19:25,1,0,2
+506,LANG-1530 another method like formatDurationWords with ,No,,3,4,267
+505,[LANG-1528] StringUtils.replaceEachRepeatedly gives IllegalStateException,Yes,"81 days, 14:53:39",2,0,40
+504,LANG-1527: Remove an redundant argument check in NumberUtils,Yes,"1 day, 20:51:23",0,0,7
+503,[LANG-1523] Avoid unnecessary allocation in StringUtils.wrapIfMissing,No,,4,0,4
+502, Added 1 and 0 in toBooleanObject(final String str) ,Yes,00:42:04,3,0,20
+501,Expand Streams functionality,No,,2,0,6049
+500,StreamsTest junit-jupiter,Yes,"91 days, 15:01:36",4,0,170
+499,LANG-1521 spring clean .gitignore,No,,2,0,47
+498,LANG-1520 spring clean .gitignore,No,,3,0,47
+497,Annotated Fraction.java,No,,1,0,24
+496,LANG-1523: Avoid unnecessary allocation in StringUtils.wrapIfMissing.,Yes,"3 days, 23:57:21",5,4,35
+495,"LANG-1519 Add zero, positive & negative util methods",No,,13,3,1029
+494,[LANG-1518] MethodUtils.getAnnotation() with searchSupers = true does not work if super is generic,Yes,"3 days, 3:20:56",9,2,57
+493,Reuse own code in Functions.java,Yes,"1 day, 10:08:27",2,0,48
+492,style(org.apache.commons.lang3): rename method from removeAllOccurenc…,No,,2,6,200
+491,Removed unused imports,No,,1,1,2227
+490,Use Javadoc {@code} instead of pre tags.,Yes,"14 days, 0:53:24",1,0,24
+489,Code simplification using the methods that we have instead,No,,4,0,603
+488,more unnecessary parentheses removed,No,,2,0,6
+487,unneccessary parentheses removed,No,,2,0,2
+486,ExceptionUtilsTest to 100%,Yes,"14 days, 1:40:52",1,0,32
+485,[LANG-1514] make test more stable by wrapping assertions in hashset,Yes,"25 days, 4:58:04",4,0,3
+484,LANG-1513 ObjectUtils: Get first non-null supplier value,No,,2,0,62
+483,[LANG-1509] Add ObjectToStringComparator.,Yes,23:41:09,6,0,156
+482,LANG-1504 - Adding labels to split StopWatch feature,No,,10,5,343
+481,[LANG-1501] Sort fields in ReflectionToStringBuilder for deterministic order,Yes,03:57:40,2,0,53
+480,LANG-1500 | Test may fail due to a different order of fields returned by reflection api,Yes,00:59:03,1,0,11
+479,StringUtil Abbreviation method fixed,No,,0,4,384
+478,StringUtils.abbreviate handles empty abbrevMarker,No,,1,2,11
+477,Lang 1463: StringUtils abbreviate returns String of length greater than maxWidth,Yes,"2 days, 5:32:42",1,4,15
+476,StringUtils.abbreviate handles empty abbrevMarker,No,,0,0,387
+475,LANG-1495 Add EnumUtils getEnum() methods with default values,Yes,15:28:21,1,4,70
+474,add FastSplitUtils,No,,1,0,1671
+473,[LANG-1466] excludeNullValues param in reflectionToString method,No,,2,0,39
+472,Add more test inputs for ArrayUtils.toMap() method,Yes,"1 day, 0:08:23",2,4,12
+471,[LANG-1177] Added indexesOf methods and simplified removeAllOccurences,Yes,"11 days, 9:48:06",3,10,1137
+470,Boolean utils limited cleanup,No,,4,3,10
+469,BooleanUtils Javadoc,Yes,"66 days, 2:26:01",1,0,110
+468,Boolean utils little cleanup,No,,3,0,172
+467,AnnotationUtils little cleanup,Yes,"1 day, 6:13:06",1,0,20
+466,Functions Javadoc,Yes,"67 days, 22:00:11",2,6,24
+465,Functions javadoc extended a bit,No,,1,0,185
+464,Support Scope,No,,0,0,873
+463,Code refactor to simplify Functions and new tests,Yes,"1 day, 9:53:58",1,0,135
+462,General Code Cleanup,No,,2,12,2689
+461,Lang 1491,No,,13,0,6538
+460,Lang-1465: Fix the ZZ time zone format,No,,3,0,20
+459,(doc): Document public RandomStringUtils exploit,No,,11,10,6
+458,[LANG-1426] Corrected usage examples in Javadocs,Yes,"9 days, 23:39:30",8,0,18
+457,WIP [LANG-1490] - Creates DiffResultView and DiffView classes,No,,3,3,221
+456,[LANG-1489] Add null-safe APIs as StringUtils.toRoot[Lower|Upper]Case(String),Yes,21:50:00,1,0,63
+455,LANG-1484: Allow decimal point at the end of the String,No,,7,0,5
+454,Make diff result extends pair,No,,6,0,224
+453,[LANG-1487] Add ClassLoaderUtils with toString() implementations.,Yes,"2 days, 22:03:29",1,0,103
+452,"[LANG-1486] Generify builder classes Diffable, DiffBuilder, and",Yes,20:17:47,2,0,159
+451,LANG-1485 : Add getters for lhs and rhs objects in DiffResult,Yes,02:10:43,2,9,32
+450,Add and use IllegalArgumentExceptions,No,,8,27,217
+449,Update documentation related to the issue LANG-696,Yes,"42 days, 6:29:45",2,2,205
+448,Lang 1482,No,,2,4,256
+447,"Fix checkstyle violations (tabs, missing spaces after commas, missing javadocs)",Yes,00:30:03,0,0,229
+446,LANG-1480 getAbbreviatedName refactored to create appropriate length …,Yes,"51 days, 7:14:15",9,26,163
+445,LANG-1478 class name abbreviation fix,No,,4,0,4
+444,LANG-1478,No,,1,0,11
+443,Optimize string split methods: 1. Use ThreadLocal to make reuse of th…,No,,13,9,185
+442,LANG-1474 documentation correction,No,,6,4,8
+441,[LANG-1475] Fix unwrap StringIndexOutOfBoundsException,No,,1,2,21
+440,Fix static code issues,No,,3,4,1473
+439,Improvement JavaVersion get method,Yes,"7 days, 17:24:23",6,0,7
+438,Add files via upload,No,,3,0,0
+437,Add GenericArrayType support to TypeUtils.containsTypeVariables,No,,5,0,48
+436,LANG-1465: Fix for the time zone format -0530 should be accepted for …,No,,0,0,12
+435,Adding power support,Yes,"5 days, 0:55:41",2,0,4
+434,Fixed a problem when parsing Chinese using the ToStringStyle.JSON_STYLE,No,,2,2,29
+433,Travis Java 13,Yes,08:44:57,0,0,13
+432,Annotating base classes,No,,0,0,15113
+431,adding power support,No,,7,0,3
+430,Add ArrayUtils.isSameLength() to compare more array types,No,,6,0,2465
+429,"ArrayUtils: merge 8 isSameLength,isEmpty,isNotEmpty into one function each.",No,,1,0,291
+428,[LANG-1546] remove <encoding> and <docEncoding> and use inherited values from commons-parent,No,,8,4,2
+427,LANG-1460: (doc) (trivial) correct release year for v3.9 in release-history.xml,No,,3,0,2
+426,Add function public static <T> T[] fillNew(T[] a),No,,1,0,0
+425,RandomUtils : comment error,Yes,"90 days, 11:39:46",1,1,32
+424,"Annotated packages exception, builder, reflect and partially time. ",No,,1,0,3673
+423,LANG-1406: StringIndexOutOfBoundsException in StringUtils.replaceIgnoreCase,No,,5,0,12
+422,LANG-1406: avoid StringIndexOutOfBounds exceptions for some cases of …,No,,5,2,58
+421,revise java-doc error,Yes,09:37:46,3,2,4
+420,LANG-1453: using toUpperCase instead of toLowerCase solve the problem,No,,9,1,7
+419,Lang 1456 either,No,,2,0,753
+418,Changing switch statement to if/else statement for greater clarity,Yes,"11 days, 9:52:57",2,0,5
+417,"(doc) Fixing couple of dangling javadocs, converted to comments.",Yes,08:56:50,1,0,7
+416,[LANG-1498] Add support of lambda value evaluation for defaulting methods,No,,8,3,171
+415,LANG-1443: Add more SystemUtils.IS_JAVA_XX variants,Yes,10:23:22,2,5,178
+414,LANG-1369: Formatted and Paramaterized Exception Classes,No,,1,0,808
+413,Fix javadoc in wrapIfMissing,Yes,08:30:46,2,0,48
+412,(doc) Fix javadoc for 'startIndex' parameter of StringUtils.join() methods,Yes,00:16:22,1,0,20
+411,LANG-1437: Remove redundant if statements in join methods,Yes,"167 days, 22:15:02",1,0,69
+410,Add proposal for Jenkins Pipeline,Yes,"19 days, 23:24:45",1,5,115
+409,Consolidate the StringUtils.equals and equalsIgnoreCase methods.,Yes,05:12:26,3,0,40
+408,LANG-1435: Implemented defaultIfNull method that uses a supplier for default value,No,,5,0,40
+407,LANG-1433: MethodUtils will throw a NPE if invokeMethod() is called for a var-args method,Yes,"362 days, 5:06:24",0,0,68
+406,[LANG-1407] DurationUtils - methods for rounding duration ,No,,7,0,485
+405,ensure java version are supported even when not in our enum,No,,1,1,9
+404,Assertion cleanup,No,,3,0,1606
+403,Fix CI issues in Functions and FunctionsTest,Yes,02:56:35,1,0,1046
+402,JUnit Jupiter upgrade 5.4.0,No,,2,0,453
+401,Lang 1424 Checked Functions,No,,1,2,911
+400,Close/flush the `OutputStream` before calling `toByteArray()` on underlying `ByteArrayOutputStream`,No,,2,0,4
+399,Synchronize before looping over synchronized collection,No,,5,0,8
+398,Add ComparableUtils,Yes,"347 days, 22:39:03",29,8,494
+397,"Replaces the given String, with the String which is nested in between two Strings. ",No,,1,0,31
+396,"Travis: ""openjdk-ea"" now means Java 13, so add Java 12 to JDKs to bui…",No,,1,0,2
+395,"Replaces the given String, with the String which is nested in between two Strings.",No,,9,8,31
+394,Replace String for reports,No,,0,0,35
+393,Replace String,No,,1,0,37
+392,LANG-1410: eliminate one unnecessary local int variable and add more tests,No,,2,14,56
+391,Adding junits for JsonToStringStyle,Yes,"78 days, 3:11:59",8,0,179
+390,Adding junits for StandardToStringStyle,No,,6,0,22
+389,(doc) StandardToStringStyle removing unnecessary method overrides,No,,2,0,513
+385,WIP: CheckedFunction utils,No,,1,1,112
+384,"Travis: Stop building with Java 9 and 10, as these are superseded by …",Yes,"3 days, 18:05:02",1,0,2
+383,Make whitespace use consistent and add checkstyle rules to enforce it,Yes,"2 days, 6:09:27",1,0,1815
+382,Proposal: Duration Utils - round value of the duration in  a given unit,No,,1,0,557
+381,LANG-1406 StringIndexOutOfBoundsException in StringUtils.replaceIgnor…,No,,5,2,20
+380,fix javadoc typo,Yes,01:03:14,2,0,2
+379,add tests for use ImmutableTriple as key in java.util.HashMap and java.util.TreeMap,No,,5,0,71
+378,add more test cases to use ImmutablePair class as key for java.util.HashMap and java.util…,No,,2,0,35
+377,LANG_1407 add DurationUtils,No,,1,0,557
+376,Test cleanup,No,,4,0,7841
+375,JUnit Jupiter migration completion,No,,2,0,4926
+374,Update time tests to JUnit Jupiter,Yes,19:36:07,4,2,1941
+373,Update mutable tests to JUnit Jupiter,Yes,00:33:13,2,0,183
+372,Update math tests to JUnit Jupiter,Yes,09:32:58,2,0,934
+371,Update tuple tests to JUnit Jupiter,Yes,00:28:49,2,0,66
+370,Update text tests to JUnit Jupiter,Yes,01:58:03,2,0,387
+369,Update reflect tests to JUnit Jupiter,Yes,07:53:18,2,0,305
+368,Update exception tests to JUnit Jupiter,Yes,02:04:29,2,0,108
+367,Update event tests to JUnit Jupiter,Yes,20:23:29,2,0,69
+366,Update concurrent tests to JUnit Jupiter,Yes,00:30:15,2,0,728
+365,Travis: Also build with openjdk-ea,Yes,01:26:14,1,0,5
+364,LANG_1407 Duration Utils,No,,0,0,317
+363,Update builder tests to JUnit Jupiter,No,,3,0,353
+362,Add a check to StringUtils.repeat() for large length repeat value,No,,8,14,17
+361,Add check to StringUtils.repeat() for large length results,No,,1,0,15
+360,Lang 1407,No,,0,0,317
+359,these 2 links seem to be broken,No,,2,0,4
+358,"ClassUtils.getBaseClasses(desiredBase, packageName)",No,,4,27,169
+357,Proposal for LANG-1421,No,,2,6,327
+356,Move combine.children to manifestEntries in order to have right entries in MANIFEST.MF,No,,1,0,4
+355,Use @ParameterizedTest to iterate over available locales,Yes,17:57:25,2,0,60
+354,Convert tests for Validate to @Nested test,Yes,"1 day, 7:31:01",5,0,2696
+353,WIP: LANG-1416: Update tests to JUnit5 via @boyarsky's converter,No,,8,0,23187
+352,LANG-1416: Update to JUnit 5,Yes,01:02:09,2,0,46
+351,LANG-1417: Add @FunctionalInterface to ThreadPredicate and ThreadGrou…,Yes,00:19:25,1,0,11
+350,Replace FindBugs with SpotBugs,Yes,"9 days, 3:03:58",1,0,23
+349,LANG-1417: Deprecate ThreadPredicate and ThreadGroupPredicate in favo…,No,,3,0,270
+348,Explicit type parameters can be removed,Yes,"2 days, 1:40:28",1,0,72
+347,Looks like Java 11 no longer fails the build,Yes,13:48:25,1,0,3
+346,LANG-1415: Update Java Language requirement to 1.8,Yes,10:13:22,1,0,22
+345,add jvmLaunchers,No,,6,0,600
+344,Adding method to remove special characters,No,,1,0,34
+343,LANG-1341 update java doc to clarify use case of appendSuper(),No,,2,3,13
+342,LANG-1411: Add empty checks to ObjectUtils,Yes,"3 days, 11:09:37",2,0,121
+341,Update maven-pmd-plugin to latest version,Yes,23:06:55,1,0,2
+340,[LANG-1406]  StringIndexOutOfBoundsException in StringUtils.replaceIgnoreCase,No,,6,7,72
+339,[LANG-1354] Added Methods to FieldUtils to Return Non-Synthetic Fields From a Class,No,,2,0,174
+338,LANG-1405 Remove check for Java 1.5,No,,1,0,4
+337,LANG-1404 BooleanUtils.toBoolean(Integer) method added,No,,2,0,33
+336,LANG-1402: Null/index safe get methods for ArrayUtils,Yes,"33 days, 3:07:15",4,9,31
+335,LANG-1400: Add StringUtils.mask() function,No,,11,0,80
+334,Code refactoring and cleaning,Yes,"7 days, 12:13:53",8,2,313
+333,(doc) Fix typos in classes of tuple package,Yes,03:36:42,1,0,12
+332,Add methods allowing masking of Strings,No,,8,0,251
+331,LANG-1380: FastDateParser too strict on abbreviated short month symbols,No,,6,0,32
+330,LANG-1397: WordUtils.wrap throws StringIndexOutOfBoundsException when wrapLength is Integer.MAX_VALUE,No,,5,0,10
+329,"Travis: Add Java 10 ""Oracle JDK"", Java 10 ""OpenJDK"", Java 11 ""Oracle …",Yes,"11 days, 0:30:59",3,0,41
+328,[LANG-1238] Add overloaded methods to StringUtils with Pattern argument,No,,3,0,0
+327,(doc) Remove invalid example of `lastIndexOf` from javadoc,No,,5,0,1
+326,[LANG-1391] Improve Javadoc for StringUtils methods,No,,1,0,9
+325,LANG-1392 methods for getting first non empty or non blank value,No,,5,0,94
+324,LANG-1390: StringUtils#join() for List<?>,No,,2,0,114
+323,Add comparison methods to ObjectUtils,No,,4,0,124
+322,(doc) Update GitHub PR help link,No,,2,0,2
+321,SerializationUtilsTest cleanup,No,,3,0,124
+320,Initial implementation of Span for LANG-1387,No,,0,0,1240
+319,Contribution of Span implementations for LANG-1387,No,,1,0,1211
+318,clean code,No,,3,0,48
+317,Predictable randomness in shuffle tests,No,,2,0,22
+316,Remove inequality check from shuffle tests,No,,1,0,10
+315,Get boolean value if the size of array is between two integer values,No,,1,0,16
+314,LANG-1060 NumberUtils.isNumber assumes number starting with Zero is octal,No,,1,0,56
+313,LANG-1060: NumberUtils.isNumber assumes number starting with Zero,No,,5,0,9
+312,"LANG-1375: defaultString(str) reuses defaultString(str, defaultStr)",Yes,01:46:49,1,0,4
+311,"LANG-1373 Stopwatch based capability for nested, named, timings ",No,,45,5,1324
+310,A small mistake in javadoc description.,No,,2,0,2
+309,Fix EventCountCircuitBreaker increment batch,No,,10,0,17
+308,LANG-1366 : Add Feature for No ClassName and MultiLine StringStyle,No,,6,11,185
+307,Fix TypeUtils.parameterize to work correctly with narrower-typed array,No,,3,0,12
+306,.travis: add IBM JDK 8,No,,2,0,3
+305,Remove unnecessary testing comments,No,,2,0,39
+304,Fix DateUtilsTest to work reliably on Java 9,No,,4,0,415
+303,doc: remove escape SQL references from javadoc,No,,2,0,5
+302,Remove ObjectUtils' trailing white spaces,Yes,03:52:41,3,0,6
+301,Clean up EventUtilsTest,Yes,22:28:33,5,1,42
+300,Improve StringUtils#replace throughput,No,,4,0,4
+299,Add module-info for Java 9,No,,37,9,210
+298,Add an instanceof test in the implementation of equals(Object obj).,No,,4,0,2
+297,Add a rule of Locale.ENGLISH to String.toUpperCase() method.,No,,11,1,13
+296,LANG-1355: Add FastTimeZone to decrease TimeZone.getTimezone latency,No,,4,12,431
+295,ExtendedMessageFormatTest integers,No,,6,0,4
+294,Added indexesOf method,No,,3,2,32
+293,Char utils test,No,,2,0,15
+292,LANG-1348 - StackOverflowError on TypeUtils.toString,No,,2,0,52
+291,LANG-1348 - StackOverflowError on TypeUtils.toString,No,,0,0,0
+290,Added string methods,No,,2,1,29
+289,Boolean comparisons in CharRange,No,,2,0,4
+288,Fix typo stateme->statement,No,,2,0,2
+287,Clean up findbugs exclusions for old XYZRange classes,No,,2,0,28
+286,LANG-1352 EnumUtils.getEnumIgnoreCase and isValidEnumIgnoreCase methods added,No,,3,0,93
+285,make checkstyle config more portable (no maven coupling),Yes,22:31:53,10,0,5
+284,remove redundant modifiers (support recent checkstyle versions),No,,2,0,4
+283,LANG-1350: Fix varargs array invokeConstructor,No,,3,0,21
+282,"SwappedPair constructed as Pair.of(rhs,lhs)",No,,6,0,2
+281,LANG-1372: Add ToStringSummary annotation,No,,3,0,88
+280,.travis.yml: add oraclejdk9,No,,4,0,7
+279,Fraction debug printings,No,,4,0,3
+278,Lang-1345 Enhance non-empty strings,No,,7,16,168
+277,run maven defaultGoal from Travis,No,,4,0,2
+276,IntelliJ IDEA refactorings,No,,1,0,150
+275,[LANG-1339]: deprecate circuit breakers and replace java.beans.PropertyListener by a Consumer<State>,No,,11,3,1417
+274,Fix ExceptionUtils#getStackFrame(String) javadoc,No,,3,0,2
+273,add lastIndexOfAnyChar method just like indexOfAny,No,,6,3,113
+272,Replaced test with verify,No,,3,0,2
+271,LANG-1340: Add ibmjdk8 support for travis-ci,No,,3,0,7
+270,LANG-1338: Add Automatic-Module-Name MANIFEST entry for Java 9 compatibility.,Yes,23:13:33,2,0,14
+269,LANG-1337: Fix test failures in IBM JDK 8 for ToStringBuilderTest by specifying the ArrayList initial capacity.,Yes,20:14:29,5,7,6
+268,.travis.yml: add oraclejdk9,No,,8,0,3
+267,LANG-1326 - Fixed isAllEmpty and isAllBlank,No,,3,0,23
+266,docs - fixed faulty samples of isNoneEmpty/isNoneBlank,Yes,"1 day, 15:08:49",2,0,11
+265,LANG-1325: Increase test coverage of ToStringBuilder class to 100%,Yes,"1 day, 20:30:39",4,0,239
+264,HashSetvBitSetTest diamond operator,No,,3,0,2
+263,Use String#contains where possible,No,,2,0,88
+262,Findbugs in Travis CI,No,,2,0,41
+261,"LANG-1317 Adds MethodUtils#findAnnotation and extend MethodUtils#getMethodsWithAnnotation for non-public, super-class and interface methods",No,,23,1,318
+260,Fixed javadoc of MutableBoolean setTrue / setFalse,No,,2,0,4
+259,LANG-1167: Add null filter to ReflectionToStringBuilder,Yes,"32 days, 19:05:39",4,0,283
+258,LANG-1300: Added documentation,Yes,"1 day, 22:18:34",2,0,271
+257,Apply checkstyle to test sources,No,,7,0,239
+256,fix for LANG-1310,No,,5,5,65
+255,LANG-1316: Deprecate classes/methods moved to commons-text,No,,8,0,153
+254,Add checkstyle to the CI,No,,6,5,46
+253,Added a restart method for convenience,No,,4,0,15
+252,[LANG-1314] Fix javadoc creation on with Java 8,No,,5,0,26
+251,LANG-1300: Change CharSequenceUtils to support supplementary characters,Yes,"12 days, 6:47:55",23,0,621
+250,LANG-1300: Convert CharSequence to String for int-methods in StringUtils,No,,5,0,27
+249,Checkstyle for long literals,No,,2,0,1
+248,Longs,No,,6,0,96
+247,JUnit imports,No,,1,0,2
+246,DateUtilsTest asserts,No,,3,0,13
+245,Use foreach,No,,6,0,34
+244,LANG-1265: Build failures when building with Java 9 EA,No,,1,0,11
+243,Fix JsonToStringStyleTest.NestingPerson javadoc,No,,2,0,2
+242,"Fix FastDateParser#getStrategy(char, int, Calendar) javadoc",No,,3,0,2
+241,Fix spacing between enum constants,No,,2,0,7
+240,Remove redundant semicolons from enums,No,,2,5,6
+239,LANG-1312: LocaleUtils#toLocale does not support language followed by…,No,,5,0,11
+238,Validate's String.format without arguments,No,,8,0,8
+237,(doc) Use the full alphabet for the well-known example text.,Yes,00:36:54,5,0,12
+236,Use StringBuilders instead of StringBuffers for local variables,No,,1,0,10
+235,Remove redundant casts,No,,4,0,382
+234,ObjectUtilsTest: collapse empty catch blocks,Yes,01:52:57,2,0,8
+233,Fix a few broken @literal tags,No,,3,0,12
+232,Fix a number of Javadoc typos,No,,2,0,88
+231,Evaluate Architecure,No,,49,25,497
+230,Copy-paste error in testIsAsciiPrintable_char,No,,2,0,2
+229,"Update RELEASE-NOTES.txt - typo ""vom""",No,,2,0,2
+228,Increase test coverage,Yes,"21 days, 13:36:54",1,0,129
+227,Improve test covarage,Yes,"2 days, 11:05:02",2,0,202
+226,[LANG-1308] Move CvsTranslators out of StringEscapeUtils and make them DRY,No,,3,0,262
+225,[LANG-1307] - Add getDigits method to StringUtils,No,,2,0,47
+224,[LANG-1306] Add nullToEmpty method in StringUtils,No,,4,0,35
+223,[LANG-1304] StringUtils method to check for mixed case in string,No,,5,9,64
+222,LANG-1303 : Escape HTML characters once,No,,3,0,238
+221,Add IsAllEmpty and isAllBlank methods,No,,12,0,79
+220,Fix javadoc for isAnyNotEmpty,No,,2,0,2
+219,LANG-341: Add number to byte array methods to org.apache.commons.lang3.Conversion,No,,13,0,4463
+218,Fix/different annotations test,No,,3,0,3
+217,LANG-1290: Increase test coverage of org.apache.commons.lang3.ArrayUtils class,No,,12,0,521
+216,Fix non-critical typos in comments and JavaDoc,Yes,10:25:44,2,0,130
+215,Separate test cases by a new line.,No,,2,0,230
+214,Fix typos in comments and javadoc.,Yes,00:21:10,1,0,38
+213,LANG-1288: Add a builder to StringEscapeUtils,No,,2,8,67
+212,[LANG-1285] Replicate the fix for LANG-1186,No,,2,0,12
+211, Fixed possible infinite loop in random of RandomStringUtils,No,,7,0,23
+210,LANG-1067: Add a reflection-based variant of DiffBuilder,No,,4,0,271
+209,LANG-1164: allow ToStringStyle to omitNulls,No,,5,1,50
+208,LANG-1066: Add shell/XSI escape/unescape support,No,,3,6,151
+207,LANG-1274: StrSubstitutor should state its thread safety,No,,1,0,1
+206,StringUtils: mention in javadoc that Character#isWhitespace(char) def…,No,,1,0,22
+205,LANG-1281: Javadoc of StringUtils.ordinalIndexOf is contradictory,No,,10,0,8
+204,LANG-1268: Add methods for comparing numbers/compareables against eac…,No,,1,0,811
+203,LANG-740: Implementation of a Memomizer,No,,1,0,328
+202,LANG-1034: Recursive and reflective EqualsBuilder,No,,8,0,298
+201,LANG-1143: StringUtils should use toXxxxCase(int) rather than toXxxxC…,No,,2,0,74
+200,LANG-1276,No,,3,0,6
+199,LANG-1258: Add ArrayUtils#toStringArray(Object[]) method,No,,15,1,78
+198,LANG-1269: Wrong name or result of StringUtils#getJaroWinklerDistance,No,,4,0,79
+197,ObjectUtils::xorNull added,No,,6,0,32
+196,"site: Nav, javadoc now says GIT latest as opposed to SVN latest",Yes,05:32:21,3,0,2
+195,LANG-1160 StringUtils.abbreviate() to support 'custom ellipses' parameter,No,,2,0,212
+194,"add isAllBlank,isNotAllBlank method for String ""null""   is also blank",No,,7,0,38
+193,Add isAnyNotEmpty() and isAnyNotBlank() to StringUtils,No,,7,3,97
+192,"Lang 1255: Add DateUtils.toCalendar(Date, TimeZone) and 4 unit tests",Yes,"11 days, 5:25:42",6,18,40
+191,ToStringExcludeNullValue,No,,6,0,100
+190,Lang 1134,No,,1,0,1462
+189,new impl of LevenshteinDistance,No,,11,4,48
+188,LANG-1266 Add alphabet converter,No,,3,0,501
+187,LANG-1263 Add possibility to retrieve the current JavaVersion,No,,5,1,69
+186,"LANG-1252: rename isNumber, isCreatable. Accommodate for java 6 ""+"" handing.",Yes,15:59:49,9,3,190
+185,Fix ReflectionToStringBuilder toString javadoc,Yes,01:19:59,3,0,2
+184,Correct replacing 160 in normalizeSpace,No,,4,0,9
+183,LANG-1261: ArrayUtils#contains ArrayUtils#indexOf should compare obje…,Yes,"25 days, 22:37:33",3,0,20
+182,Add maven dependency for JMH framework.,No,,17,1,70
+181,Adding test cases for StringUtils.equals methods to cover LANG-1162/LANG-1239 etc,No,,4,0,22
+180,LANG-1251: SerializationUtils.ClassLoaderAwareObjectInputStream should use static initializer to initialize primitiveTypes map.,No,,2,0,23
+179,LANG-1023,Yes,"60 days, 12:56:08",4,3,154
+178,Removing test redundant for org.apache.commons.lang3.builder.DefaultToStringStyleTest.testObjectArray,No,,1,0,2
+177,Removing test redundant for org.apache.commons.lang3.builder.DefaultToStringStyleTest.testLongArrayArray,No,,1,0,2
+176,Removing test redundant for org.apache.commons.lang3.StringUtilsTest.testIsNotEmpty,No,,1,0,2
+175,Removing test redundant for org.apache.commons.lang3.StringUtilsTest.testIsEmpty,No,,2,0,2
+174,[LANG-1250] SerializationUtils::deserialize has unnecessary code and a comment for that,No,,2,0,4
+173,Removing test redundant for org.apache.commons.lang3.builder.DefaultToStringStyleTest.testObjectArray,No,,1,0,2
+172,Removing test redundant for org.apache.commons.lang3.builder.DefaultToStringStyleTest.testLongArrayArray,No,,1,0,2
+171,Removing test redundant for org.apache.commons.lang3.ClassUtilsTest.testWrapperToPrimitiveNoWrapper,No,,6,0,2
+170,Added RandomUtils#nextBoolean() method,No,,2,0,8
+169,LANG-1248 FastDatePrinter Memory allocation regression,No,,3,0,66
+168,LANG-1247 FastDatePrinter generates Date objects wastefully,No,,1,0,8
+167,Fix typo in toMap javadoc,Yes,02:56:45,2,0,2
+166,Fix typo in documentation of Range#isEndedBy,No,,1,0,2
+165,update javadoc for DateParser and DatePrinter,No,,1,0,18
+164,Fixing testTSVEmpty to use getTSVInstance instead of getCSVInstance,No,,1,0,4
+163,LANG-1197: Prepare Java 9 detection,Yes,"103 days, 20:13:02",11,1,125
+162,Merge pull request #2 from apache/master,No,,0,0,0
+161,Merge pull request #1 from apache/master,No,,1,0,0
+160,Eliminate redundant calculation of isDecimalPoint.,No,,1,0,2
+159,Fix commented out nsub in EntityArray,No,,2,0,4
+158,LANG-1190: TypeUtils.isAssignable throws NullPointerException when fr…,No,,1,0,21
+157,LANG-1224: Extend RandomStringUtils with methods that generate string…,No,,6,0,248
+156,LANG-1018: Fix precision loss on NumberUtils.createNumber(String),No,,3,0,30
+155,"LANG-1214 Handle ""void"" in ClassUtils.getClass()",No,,1,0,23
+154,LANG-1225: Add RandomStringUtils#randomGraph and #randomPrint which m…,No,,1,0,40
+153,LANG-1236: Add StopWatch#getTime with String Format Argument,No,,1,0,60
+152,LANG-1223: Add StopWatch#getTime(TimeUnit),No,,5,0,76
+151,LANG-1233: DiffBuilder add method to allow appending from a DiffResult,No,,4,1,3
+150,LANG-1226: StringUtils#normalizeSpace does not trim the string anymore,No,,0,0,4
+149,LANG-901: StringUtils#startsWithAny/endsWithAny is case sensitive - documented as case insensitive,No,,0,0,51
+148,LANG-1199: Incorrect implementation of StringUtils#getJaroWinklerDist…,No,,1,0,185
+147,LANG-1206: improve CharSetUtils.squeeze() performance,No,,1,0,23
+146,LANG-787: Add StringUtils#removeIgnoreCase,Yes,"126 days, 17:20:24",0,0,339
+145,LANG-1168: Add SystemUtils.IS_OS_WINDOWS_10 property,No,,1,0,13
+144,LANG-1176: Improve ArrayUtils removeElements time complexity to O(n),No,,1,0,145
+143,LANG-1230 Remove unnecessary synchronization,No,,1,0,44
+142,LANG-1229 Performance regression in HashCodeBuilder,No,,2,0,142
+141,Lang 1195: Enhance MethodUtils to allow invocation of private methods,No,,19,6,262
+140,Branch for 4.x - will attempt to autosync from trunk,No,,0,0,0
+139,[LANG-1228] Prefer Throwable.getCause() in ExceptionUtils.getCause(),No,,3,0,69
+138,LANG-1218 EqualsBuilder.append is too large,No,,0,0,18
+137,Adding to StringUtils truncate method and test cases,No,,9,2,292
+136,Adding unwrap and unwrapFull methods to StringUtils,No,,6,1,591
+135,Add tests for some missed branches in StringUtils,No,,1,0,34
+134,Fix some typos in Javadoc,No,,1,0,16
+133,Add tests for missed branches in DateUtils,No,,3,0,52
+132,Add tests with a better comparator,No,,0,0,19
+131,Fix typo in API docs,No,,2,0,2
+130,[LANG-1205] NumberUtils.createNumber() behaves inconsistently with Nu…,No,,1,0,28
+129,Fix typo on appendIfMissing javadoc,No,,5,0,10
+128,Formatting ArrayUtils,No,,1,0,72
+127,General cleanup,No,,18,0,135
+126,LANG-1210 Fixed JavaDoc,No,,1,0,2
+125,Fix for incorrect comment on StringUtils.containsIgnoreCase method,No,,3,0,16
+124,StrSubstitutor can preserve escapes,Yes,04:12:03,2,0,48
+123,Added a new property IS_OS_MAC_OSX_EL_CAPITAN in SystemUtils,No,,1,0,17248
+122,Add method to DiffBuilder to allow appending from a DiffResult.,No,,6,0,65
+121,DiffBuilder: Add null check on fieldName when appending Object or Object[],No,,5,0,7
+120,modify note at line 1230,No,,1,0,2
+119,Optimize the code.,No,,3,0,11
+118,Optimization of getLevenshteinDistance with a threshold,No,,2,0,5
+117,LANG-1186 Fix NullPointerException in FastDateParser$TimeZoneStrategy,Yes,"27 days, 10:12:23",0,0,7
+116,"Moving the clone inside removeAll(Object,int...);Object per LANG-1178",No,,1,0,37
+115,Fix indexOfIgnoreCase javadoc and provide test for fixed example,No,,1,0,3
+114,LANG-1182: adding clarifying examples to StringUtils#containsAny javadoc,Yes,"7 days, 21:25:36",0,0,18
+113,LANG-1184: StringUtils#normalizeSpace no longer normalizes unicode no…,No,,9,2,0
+112,LANG-1175: removed ant-based build,Yes,"129 days, 14:15:23",4,5,548
+111,Add sugar to RandomIUtils,Yes,"5 days, 1:22:21",4,0,88
+110,LANG-1171 Add null safe compare methods in StringUtils :,Yes,"18 days, 4:49:31",1,0,262
+109,Added equalsAny() and equalsAnyIgnoreCase() methods to StringUtils.,Yes,"64 days, 12:12:19",3,0,102
+108,LANG-781 Added methods to ObjectUtils class to check for null element…,No,,8,0,71
+107,LANG-1155 - String unwrap capability,No,,1,0,102
+106,LANG-1155,No,,0,0,102
+105,[LANG-1120] Bugfix: StringUtils#stripAccents Ł and ł.,No,,3,0,17
+104,Changes in Capitalize methods in WordUtils class.,No,,2,0,0
+103,LANG-1146 Add helper method to SystemUtils.java for zOS identification,No,,9,0,57
+102,Changes in Capitalize methods in WordUtils class.,No,,3,0,0
+101,random length strings within range,No,,7,1,286
+100,random length strings within range,No,,0,0,286
+99,fix LANG-1151,No,,2,0,10694
+98,Ability to throw checked exceptions without declaring them,No,,23,5,65
+97,LANG-1147 : Fix EnumUtils *BitVector issue with more than 32 values Enums,No,,0,0,59
+96,refactor FastDateParser,Yes,"26 days, 0:00:59",0,0,768
+95,Implementations of the circuit breaker pattern related to LANG-1085,No,,4,0,1505
+94,RFC: provide support for generating random length strings within an inclusive range,No,,2,4,36
+93,"fix StringUtils.ordinalIndexOf(""aaaaaa"", ""aa"", 2) == 3",No,,4,1,20
+92,LANG-1139: Add null safe methods in StringUtils to replace by regular…,Yes,"151 days, 15:39:38",1,0,161
+91,[LANG-1138]add a static method to create a started stopwatch,No,,2,0,23
+90,LANG-779 Provide a StrBuilder-based or StringBuilder-based ToStringBuilder,No,,1,0,358
+89,LANG-1115 Add support for varargs in method utils,No,,3,0,427
+88,Added new addListener method that allows checking for duplicate listeners.,Yes,13:06:27,2,0,41
+87,Lang 1134,No,,7,12,1462
+86,Fix issue 1122,Yes,09:54:46,1,0,500
+85,ReflectionToStringBuilder doesn't throw IllegalArgumentException when the constructor's object param is null,Yes,"1 day, 15:15:06",3,1,29
+84,"@SuppressWarnings(""deprecation"") to joinWith, because it uses the",Yes,"1 day, 17:50:47",4,2,4
+83,remove compiler warnings from ThreadUtils,Yes,"1 day, 20:30:36",3,3,6
+82,remove compiler warnings of joinWith tests,Yes,"1 day, 20:16:17",2,0,8
+81,LANG-1135 - Add method containsAllWords to WordUtils,Yes,"2 days, 0:51:12",13,2,64
+80,LANG-740 - Implementation of a Memomizer,No,,3,6,282
+79,LANG-701 - Added new joinWith method to support varargs,Yes,21:12:48,3,0,59
+78,Add ThreadUtils (2nd PR),Yes,21:36:33,5,8,844
+77,"EqualsExlcude notation, HashCodeExclude notation and ToStringExludeNotat...",Yes,23:54:22,5,1,249
+76,LANG-1127: Use JUnit rules to set and reset the default Locale and TimeZone,Yes,"4 days, 7:52:56",7,0,188
+75,LANG-1124: Add StringUtils split by length methods,No,,4,9,229
+74,fix JsonToStringStyle,Yes,"2 days, 18:44:49",6,3,102
+73,"#LAN-1114 fixes bug in TypeUtils.equals(WildcardType, Type)",Yes,21:40:00,2,0,13
+72," LANG-1118: Fix StringUtils.repeat(char, int)",No,,3,0,11
+71,"LANG-1119: Add StringUtils.rotate(String, int)",No,,1,0,62
+70,Update DateUtils.java,No,,3,0,18
+69,"LANG-1119: Add StringUtils.rotate(String, int)",No,,4,0,71
+68,"LANG-1118 Fix StringUtils.repeat(char, int)",No,,3,0,11
+67,fix JsonToStringStyle,No,,3,0,45
+66,fix JsonToStringStyle,No,,1,0,45
+65,#LANG-1114 TypeUtils.equals is broken for WildcardType,No,,5,2,160319
+64,Update DateUtils.java,No,,4,0,2
+63,Lang 740 - Memoizer implementation,No,,9,0,282
+62,README.md - avoid 404 links,No,,1,0,6
+61,Add ThreadUtils,No,,25,24,831
+60,LANG-794: Use os.name only when determining Windows versions,No,,3,0,38
+59,LANG-821: Added all Mac OS X versions to date,No,,3,6,134
+58,LANG-1091 fixes shutdown of ExecutorPools used in Tests.,No,,3,0,57
+57,Fixes JavaDoc of LANG-1093,No,,0,0,6
+56,Some minor fixup of LANG-935.,No,,0,0,44
+55,Update maven-checkstyle-plugin to 2.14,No,,1,0,2
+54,Update org.easymock:easymock to 3.3.1,No,,2,0,2
+53,Update maven-pmd-plugin to 3.4,No,,1,0,2
+52,Update maven-antrun-plugin to 1.8,No,,1,0,2
+51,LANG-990 support appending CharBuffer and use specialized methods,No,,0,0,90
+50,LANG-935 optimize lookup of translations by LookupTranslator,No,,0,0,85
+49,LANG-877 removes unnecessary string allocation and improves hex writing.,No,,0,0,47
+48,LANG-1093 - Add ClassUtils.getAbbreviatedName(),No,,0,0,117
+47,swap and shift for arrays,No,,9,30,1919
+46,Remove busy wait,No,,4,0,350
+45,Replace the busy wait from AtomicSafeInitializer with an alternate method that eliminates wasted CPU cycles,No,,3,1,28
+44,LANG-1082: Add ability to disable DiffBuilder trivially equal test in constructor.,No,,1,2,86
+43,LANG-1055: StrLookup.systemPropertiesLookup() not singleton.,No,,1,0,72
+42,Casts used to pass unit tests on JDK 1.6.0_18.,No,,0,0,4
+41,Lang 1081 - DiffBuilder left.equals(right),No,,4,15,56
+40,add NoClassNameToStringStyle implementation of ToStringStyle,No,,7,0,180
+39,LANG-1065 Added new 'merge' method to DateUtils and three tests,No,,3,0,66
+38,LANG-701 Added new joinWith method to support varargs,No,,15,6,67
+37,add RandomEnumUtils to operate with random instances of enum types,No,,7,2,36
+36,Replace string,No,,4,4,67
+35,Avoid memory allocation when using date formating to StringBuffer.,No,,3,0,18
+34,Multiline recursive to string style,No,,9,1,479
+33,LANG-1050 Generic nullToEmpty method,No,,0,0,64
+32,Lang-536,No,,0,0,516
+31,LANG-1050 Added new generic emptyToNull array method,No,,1,0,169
+30,Fix test case. Internally the test case is using Class.getMethods() whic...,No,,3,0,7
+29,Annotation @ToStringExclude,No,,8,8,208
+27,Reimplemented normalize space,No,,3,0,34
+26,Adding the new JsonToStringStyle to ToStringStyle,No,,12,16,2613
+25,Adding unwrap and unwrapFull methods to StringUtils,No,,6,0,613
+24,Adding to StringUtils truncate method and test cases,No,,5,1,164
+23,Adding the maxVA and minVA methods to NumberUtils and test methods,No,,11,0,1675
+22,Fixing NumberUtils JAVADoc comments for max methods,No,,0,0,12
+21,Add wrap (with String or char) to StringUtils,No,,6,0,108
+20,Add fuzzy String matching logic to StringUtils,No,,17,0,110
+19,Fix LANG-948,No,,1,0,51
+18,Fix bug with stripping spaces on last line in WordUtils.wrap(),No,,1,0,12
+17,add NoClassNameToStringStyle implementation of ToStringStyle,No,,0,5,180
+16,add isNull and isNotNull methods,No,,3,0,40
+15,Add escapeXml10 and escapeXml11,No,,4,2,259
+14,"LANG-936: Handle Integer.MAX_VALUE edge condition in getLevenshteinDistance(String, String, int)",No,,3,0,10
+13,Update ImmutablePair to be not final,No,,1,0,2
+12,added the new JsonToStringStyle,No,,11,0,106
+11,[LANG-763] Reintroduce DateUtils.UTC_TIME_ZONE constant:,No,,2,0,253
+10,Hash code builder,No,,8,0,37
+9,Lang 4 x,No,,3,0,47
+8,Adding .gitignore to commons-lang,No,,6,0,12
+7,[LANG-903] Trunk - ToStringStyle typos and XML implementation,No,,3,0,134
+6,update BooleanUtils.toBoolean(String str) javadoc to reflect changes ,No,,0,0,14
+5,Fix a Octal bug.,No,,5,0,4
+4,"StringUtils#repeat(char,int) has arguments in in reverse order in javadoc examples",No,,1,0,6
+3,"LANG-848: Added isAnyBlank, isNoneBlank, isAnyEmpty, isNoneEmpty",No,,9,2,182
+2,Update src/main/java/org/apache/commons/lang3/SystemUtils.java,No,,1,0,12
+1,Add a Triple tuple class analog to the Pair.,No,,11,0,751

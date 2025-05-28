@@ -1,0 +1,257 @@
+Pull Request Number,Title,Label by Melika,Label by Milad,Comment Messages,Merged,Time to Merge,Comments,Review Comments,Review Messages,Lines of Code Changed
+283,Bump snakeyaml from 1.33 to 2.0,Performance issues,Performance issues,[],Yes,04:09:21,2,0,[''],2
+282,Support SnakeYAML 2.0,Performance issues,Performance issues,[],Yes,06:43:58,0,0,[],19
+281,Bump log4j.version from 2.19.0 to 2.20.0,Security issues,Security issues,[],Yes,02:45:25,0,0,[],2
+280,Bump spring.version from 5.3.25 to 6.0.5,Performance issues,Security issues,[],No,,0,0,[],2
+279,Bump actions/cache from 3.2.5 to 3.2.6,Security issues,Functional bugs,[],Yes,00:18:52,0,0,[''],2
+278,Bump spring.version from 5.3.24 to 5.3.25,Security issues,Performance issues,[],Yes,"6 days, 22:10:46",0,0,[],2
+277,Bump actions/setup-java from 3.9.0 to 3.10.0,Security issues,Security issues,[],Yes,00:30:24,1,0,[],4
+276,Bump actions/cache from 3.2.4 to 3.2.5,Security issues,Performance issues,[],Yes,00:30:46,1,0,[],2
+275,Bump mockito-core from 4.11.0 to 5.1.1,Performance issues,Performance issues,[],No,,0,0,[],2
+274,Bump jackson-databind from 2.14.1 to 2.14.2,Security issues,Performance issues,[],Yes,00:09:27,1,0,[],2
+273,Bump actions/cache from 3.2.3 to 3.2.4,Performance issues,Performance issues,[],Yes,00:10:18,1,0,[],2
+272,Remove unused declarations.,Performance issues,Performance issues,[],No,,2,0,[],2
+271,Replace lambdas with method references.,Code style problems,Code style problems,[],No,,0,0,[],5
+270,Migrate to SnakeYAML Engine,Performance issues,Performance issues,"[""-1 obviously, you can't turn off this check for binary compatibility. "", 'it is binary incompatible', '@garydgregory can you please suggest the way to continue ?', ""Yes: Don't change that setting. You cannot break binary compatibility (BC) outside of a major release upgrade. If this PR breaks BC, then it's -1.\r\n\r\nGary"", '@garydgregory how can I indicate that it is a backwards incompatible change ? To be included in the next major release. I think the master branch is exactly for it', ""You don't indicate anything, and you don't turn off JApiCmd as JApiCmd will fail the build if the PR breaks BC."", '@garydgregory I did not quite catch you. Do you mean that I need to provide a PR which breaks the build ? ']",No,,6,7,"[""Hi @asomov , thanks for the PR.\r\n\r\nI've enabled the workflow to see what's the status of the build.\r\n\r\nI haven't followed much of the development in these Java YAML libraries, but this task would require a JIRA issue too so that others can comment here/there, and also for the changelog. Could you create one, please?\r\n\r\nAnd since it changes the public API, I believe we would have to assign it to a major release.\r\n\r\nIf you have more updates to this PR, please push your changes to the same branch so this PR is updated, instead of closing and creating new PR's, since that means someone will have to allow the workflow to run (as it's your first contribution to this repository - GitHub Actions security) and also since the previous comments and reviews would be discarded when this PR is closed.\r\n\r\nThank you!\r\nBruno"", 'See comment.', '', '', '', '', '', '', 'I am marking this as -1 and ""request change"" in GH to fix BC checking. We cannot keep this PR open as a green build PR in case it gets merged by accident. It can stay open with a failing build.']",119
+269,Migrate to SnakeYAML Engine,Performance issues,Performance issues,[],No,,1,0,[],119
+268,Bump mockito-core from 4.11.0 to 5.0.0,Performance issues,Performance issues,[],No,,1,0,[],2
+267,Bump maven-checkstyle-plugin from 3.2.0 to 3.2.1,Security issues,Performance issues,[],No,,2,0,[],2
+266,Bump spring.version from 5.3.24 to 6.0.4,Performance issues,Performance issues,[],No,,1,0,[],2
+265,Bump actions/cache from 3.2.2 to 3.2.3,Security issues,Performance issues,[],Yes,00:31:10,1,0,[],2
+264,Bump actions/checkout from 3.2.0 to 3.3.0,Security issues,Functional bugs,[],Yes,02:27:09,1,0,[],8
+263,Bump actions/upload-artifact from 3.1.1 to 3.1.2,Functional bugs,Functional bugs,[],Yes,02:26:58,1,0,[],2
+262,Bump checkstyle from 9.3 to 10.6.0,Performance issues,Performance issues,[],No,,2,0,[],2
+261,Bump slf4j.version from 2.0.5 to 2.0.6,Security issues,Performance issues,[],No,,2,0,[],2
+260,Bump spring.version from 5.3.23 to 6.0.3,Performance issues,Performance issues,[],No,,1,0,[],2
+259,Bump mockito-core from 4.10.0 to 4.11.0,Code style problems,Code style problems,[],Yes,01:14:54,1,0,[],2
+258,Bump actions/cache from 3.2.1 to 3.2.2,Security issues,Functional bugs,[],Yes,00:27:35,1,0,[],2
+257,Bump mockito-core from 4.9.0 to 4.10.0,Security issues,Code style problems,[],Yes,03:15:55,0,0,[],2
+256,Bump ossf/scorecard-action from 2.1.0 to 2.1.2,Security issues,Code style problems,[],Yes,03:16:58,0,0,[],2
+255,Bump actions/cache from 3.0.11 to 3.2.1,Performance issues,Functional bugs,[],Yes,01:37:31,0,0,[''],2
+254,[INFRA-24015] Update for Scorecards 2,Performance issues,Performance issues,[],Yes,01:08:36,2,0,[''],3
+253,Bump commons-parent from 54 to 55,Performance issues,Performance issues,[],Yes,06:23:53,1,0,[],2
+252,Bump actions/setup-java from 3.8.0 to 3.9.0,Performance issues,Code style problems,[],Yes,00:52:32,1,0,[],4
+251,Bump actions/checkout from 3.1.0 to 3.2.0,Functional bugs,Functional bugs,[],Yes,00:52:49,1,0,[],8
+250,Bump ossf/scorecard-action from 1.1.2 to 2.1.0,Code style problems,Code style problems,[],Yes,00:52:23,0,0,[],2
+249,Bump mockito-core from 4.8.1 to 4.9.0,Code style problems,Code style problems,[],Yes,00:10:26,1,0,[],2
+248,Bump actions/setup-java from 3.7.0 to 3.8.0,Performance issues,Code style problems,[],Yes,00:04:05,0,0,[],4
+247,Bump checkstyle from 9.3 to 10.5.0,Code style problems,Code style problems,[],No,,2,0,[],2
+246,Bump jackson-databind from 2.13.4.2 to 2.14.1,Code style problems,Code style problems,[],Yes,01:47:09,0,0,[''],4
+245,Bump actions/setup-java from 3.6.0 to 3.7.0,Code style problems,Code style problems,[],Yes,00:13:26,0,0,[''],4
+244,Use Java style array decelerations,Code style problems,Code style problems,[],Yes,02:11:33,1,0,[],26
+243,Use StandardCharsets.UTF_8,Performance issues,Performance issues,[],Yes,00:37:09,1,0,['Thank you!'],6
+242,Comparisons with String.indexOf() calls that can be replaced with a c…,Code style problems,Code style problems,[],Yes,01:02:06,1,0,['Thank you!'],10
+241,Bump slf4j.version from 2.0.4 to 2.0.5,Security issues,Performance issues,[],Yes,04:51:38,1,0,[''],4
+240,Bump spring.version from 5.3.23 to 6.0.2,Performance issues,Performance issues,[],No,,1,0,[],2
+239,Bump spring.version from 5.3.23 to 6.0.0,Performance issues,Performance issues,[],No,,1,0,[],2
+238,Bump slf4j.version from 2.0.2 to 2.0.4,Security issues,Performance issues,[],Yes,03:45:32,0,0,[''],5
+237,Bump spotbugs-maven-plugin from 4.7.2.1 to 4.7.3.0,Performance issues,Performance issues,[],Yes,17:18:29,1,0,[''],4
+236,Bump checkstyle from 9.3 to 10.4,Performance issues,Performance issues,[],No,,2,0,[],2
+235,Bump mockito-core from 4.8.0 to 4.8.1,Security issues,Performance issues,[],Yes,"2 days, 2:59:15",0,0,[],2
+234,Bump hsqldb from 2.5.2 to 2.7.1,Performance issues,Performance issues,[],No,,0,0,[],2
+233,Bump actions/upload-artifact from 3.1.0 to 3.1.1,Performance issues,Performance issues,[],Yes,"2 days, 3:02:02",1,0,[],2
+232,Bump ossf/scorecard-action from 1.1.2 to 2.0.6,Performance issues,Code style problems,[],No,,3,0,[],2
+231,Bump actions/setup-java from 3.5.1 to 3.6.0,Performance issues,Performance issues,[],Yes,03:03:22,1,0,[''],4
+230,Add more detailed statement around CVE-2022-33980,Performance issues,Performance issues,[],Yes,01:29:55,1,0,[],79
+229,CONFIGURATION-822: Fix ambiguity on the section determining,Performance issues,Performance issues,"['Version for `since` tags should match `pom.xml` minus `-SNAPSHOT`.', 'Do not change the formatting please.', 'Added version 2.9.0', 'Reverted unnecessary formatting changes.  \r\nSorry for the inconvenience.']",Yes,"19 days, 23:06:17",7,4,"['Do not change the formatting, please.', '', '']",110
+228,Bump spotbugs-maven-plugin from 4.7.2.0 to 4.7.2.1,Performance issues,Performance issues,[],Yes,10:53:05,1,0,[''],4
+227,Bump jackson-databind from 2.13.4 to 2.13.4.2,Performance issues,Performance issues,[],Yes,09:48:19,1,0,[''],4
+226,Bump actions/cache from 3.0.10 to 3.0.11,Security issues,Performance issues,[],Yes,04:23:26,0,0,[''],2
+225,Bump actions/cache from 3.0.9 to 3.0.10,Security issues,Performance issues,[],Yes,06:26:37,2,0,[''],4
+224,Bump actions/checkout from 3.0.2 to 3.1.0,Code style problems,Code style problems,[],Yes,06:18:40,0,0,[''],12
+223,Bump actions/cache from 3.0.8 to 3.0.9,Performance issues,Performance issues,[],Yes,01:32:05,1,0,[''],5
+222,Bump ossf/scorecard-action from 1.1.2 to 2.0.4,Performance issues,Performance issues,[],No,,4,0,[],2
+221,Bump commons-text from 1.9 to 1.10.0,Performance issues,Performance issues,[],Yes,00:50:57,3,0,[],2
+220,Bump checkstyle from 9.3 to 10.3.4,Performance issues,Performance issues,[],No,,2,0,[],2
+219,Bump snakeyaml from 1.32 to 1.33,Security issues,Performance issues,[],Yes,00:54:30,1,0,[],2
+218,Bump slf4j.version from 2.0.2 to 2.0.3,Performance issues,Performance issues,[],No,,2,0,[],2
+217,Bump junit-jupiter from 5.9.0 to 5.9.1,Performance issues,Performance issues,[],Yes,01:32:16,0,0,[''],2
+216,Bump commons-parent from 53 to 54,Performance issues,Performance issues,[],Yes,01:33:14,0,0,[],2
+215,Bump slf4j.version from 2.0.1 to 2.0.2,Security issues,Performance issues,[],Yes,02:17:56,1,0,[''],4
+214,Bump javacc-maven-plugin from 2.6 to 3.0.1,Performance issues,Performance issues,[],No,,1,0,[],2
+213,Bump log4j.version from 2.18.0 to 2.19.0,Performance issues,Performance issues,[],Yes,01:38:59,0,0,[],2
+212,Bump snakeyaml from 1.31 to 1.32,Performance issues,Performance issues,[],Yes,06:45:56,0,0,[''],4
+211,Bump spring.version from 5.3.22 to 5.3.23,Security issues,Performance issues,[],Yes,06:47:20,0,0,[''],5
+210,Bump slf4j.version from 2.0.0 to 2.0.1,Performance issues,Performance issues,[],Yes,07:02:10,2,0,[''],4
+209,Bump ossf/scorecard-action from 1.1.2 to 2.0.3,Performance issues,Performance issues,[],No,,3,0,[],2
+208,Bump Mockito from 4.7.0 to 4.8.0,Performance issues,Performance issues,[],Yes,00:16:25,0,0,[],11
+207,Bump maven-pmd-plugin 3.18.0 to 3.19.0,Performance issues,Performance issues,[],Yes,00:09:00,0,0,[],9
+206,Bump spotbugs from 4.7.0 to 4.7.2,Performance issues,Performance issues,[],Yes,01:10:36,0,0,[],16
+205,Bump jackson-databind from 2.13.3 to 2.13.4,Performance issues,Performance issues,[],Yes,00:07:59,0,0,[],5
+204,Bump checkstyle from 9.3 to 10.3.3,Performance issues,Performance issues,[],No,,2,0,[],2
+203,Bump snakeyaml from 1.30 to 1.31,Security issues,Performance issues,[],Yes,04:14:08,0,0,[''],5
+202,Bump slf4j.version from 1.7.36 to 2.0.0,Performance issues,Performance issues,[],Yes,06:49:30,0,0,[''],5
+201,Bump maven-checkstyle-plugin from 3.1.2 to 3.2.0,Security issues,Performance issues,[],Yes,06:50:39,0,0,[''],5
+200,Bump mockito-core from 4.6.1 to 4.7.0,Performance issues,Performance issues,[],Yes,04:42:30,1,0,[''],5
+199,Bump javacc-maven-plugin from 2.6 to 3.0.0,Performance issues,Performance issues,[],No,,1,0,[],2
+198,Bump checkstyle from 9.3 to 10.3.2,Performance issues,Performance issues,[],No,,2,0,[],2
+197,Bump junit-jupiter from 5.8.2 to 5.9.0,Performance issues,Performance issues,[],Yes,06:39:47,1,0,[''],5
+196,Bump hsqldb from 2.5.2 to 2.7.0,Performance issues,Performance issues,[],No,,2,0,[],2
+195,Bump spotbugs-maven-plugin from 4.7.1.0 to 4.7.1.1,Security issues,Performance issues,[],Yes,19:06:12,0,0,[],2
+194,CONFIGURATION-817: update to JUnit 5,Performance issues,Performance issues,"['Can you explain the need for this change in more detail? Was this test not working before?', ""After my changes the one test that used this method failed. I couldn't find out why my changes would have caused this, so I ran the tests on master again; the test failed there as well.\r\n\r\nI started debugging the code, and noticed that the last modified timestamp wasn't changed. This is commented in FileUtils: https://github.com/apache/commons-io/blob/rel/commons-io-2.11.0/src/main/java/org/apache/commons/io/FileUtils.java#L849 (the first part of my comment comes from that line). The test clearly needed the last modified timestamp to change, something that was probably done automatically on Linux but on Windows it needed this extra step."", 'This gives us two separate mocking frameworks in the tests: Mockito and Easymock. Can we standardize on Mockito and remove Easymock?', 'Weird. I wonder how we missed that before.', ""I think I can do that as separate PR, it's a bit too much work right now, especially since I'm already working on removing assertion messages (as requested in https://issues.apache.org/jira/browse/CONFIGURATION-817).\r\n\r\nI tried using EasyMock as replacement of mockobjects first just to prevent a second mocking framework, but as far as I can tell EasyMock requires every call to be specified in order up front, whereas mockobjects and Mockito can be setup in any order (as long as the matchers are used correctly). I got so many errors that I gave up."", ""Perhaps the tests aren't run on Windows?"", ""FYI, I'm already working on replacing EasyMock."", ""And FYI, I've just pushed a commit that replaces EasyMock with Mockito.""]",Yes,"5 days, 21:21:46",5,8,"['This looks good! I just have the one question on the file timestamp thing.', '', '', '', '', '', '', '', ""Thanks for all of this work, @robtimus! This looks great! I'll leave this open for a couple more days to see if anyone has any comments and then merge it.""]",15553
+193,Bump spotbugs-maven-plugin from 4.7.0.0 to 4.7.1.0,Performance issues,Performance issues,[],Yes,06:14:35,0,0,[''],2
+192,Bump checkstyle from 9.3 to 10.3.1,Performance issues,Performance issues,[],No,,2,0,[],2
+191,setup-java: adopt -> temurinsetup-java: adopt -> temurin,Performance issues,Performance issues,[],Yes,"12 days, 5:26:21",0,0,[],2
+190,use GitHub Actions setup-java Maven cache property,Performance issues,Performance issues,[],No,,1,0,['Thanks!'],16
+189,Use charset predefined StandardCharsets.UTF_8 code.,Code style problems,Code style problems,[],Yes,06:52:04,3,0,"[""Looks good to me. Thanks @arturobernalg . Holding back on merging as I think there's a release in progress :+1: ""]",5
+188,CONFIGURATION-813: mailapi follow up,Performance issues,Performance issues,"[""I don't think we want any PII here."", ""I think this email was already in the code before this change. There might be more PII in other places, I'm +1 to removing it. Maybe we could do it in a follow up issue if that's easier.""]",Yes,"1 day, 0:24:02",1,2,"['', '', 'LGTM, one change noted.', '']",71
+187,Make default interpolation prefix lookups configurable,Performance issues,Performance issues,[],Yes,00:07:07,0,0,[],407
+186,[CONFIGURATION-813]: Support both javax and jakarta namespace in mailapi,Performance issues,Performance issues,"['Maybe rename the other constant to have a JAVAX postfix?', 'Reuse the constant you created above.', 'Another magic string, reuse the constant...', 'So this WILL cause a class cast exception? How is that ok?', 'Good idea. See #188 ', 'This entire method was actually not needed anymore. There is no longer any reason to not instantiate `InternetAddress` directly. ', 'This can simply be a direct class reference.', ""Good point. I suppose the scenario might be like this:\r\n- A user has both mailapi version on the classpath.\r\n- They call `convert` passing in the javax InternetAddress class. \r\n- The converter sees that some type of InternetAddress has been requested and attempts to load the jakarta version, which is found.\r\n- A new jakarta InternetAddress is returned, which causes a class cast exception when being assigned to the javax InternetAddress variable.\r\n\r\nI've provided a fix for this in #188, where we only attempt to load and cast to the actual type given. Let me know what you think.""]",Yes,00:17:47,4,8,"['(pending CI build)\r\n\r\nThanks!', '', '', '', '', '', '', '', '']",37
+185,[CONFIGURATION-813] Use javamail 2.0,Performance issues,Performance issues,[],No,,2,0,[],23
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
